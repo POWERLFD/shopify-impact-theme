@@ -11,6 +11,45 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "rich_text_GRzryY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jyWRpC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_XaEDjc": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jeAf4G": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jyWRpC",
+        "heading_XaEDjc",
+        "richtext_jeAf4G"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -118,7 +157,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -168,6 +207,7 @@
     }
   },
   "order": [
+    "rich_text_GRzryY",
     "text-with-icons",
     "rich_text_pXxA89",
     "footer"
