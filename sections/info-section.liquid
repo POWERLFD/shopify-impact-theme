@@ -1,92 +1,64 @@
 {% stylesheet %}
 .info-section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #6e6e73;
+  line-height: 1.8;
+  font-size: 12px;
+  margin: 5px 0;
   padding: 2rem 1rem;
-  text-align: center;
+  background-color: var(--info-background, #f2f2f2);
 }
-.info-section--left {
-  text-align: left;
+.info-section h3 {
+  color: #1d1d1f;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
-.info-section--right {
-  text-align: right;
+.info-section p {
+  margin-bottom: 12px;
 }
-.info-section__title {
-  margin-bottom: 1rem;
-  font-weight: bold;
+.info-section strong {
+  color: #333;
 }
-.info-section__content {
-  max-width: 800px;
-  margin: 0 auto;
+.info-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+.separator {
+  margin-top: 20px;
+  border-top: 1px solid #d2d2d7;
+  height: 1px;
+  background-color: #f5f5f7;
 }
 {% endstylesheet %}
 
-<section class="info-section info-section--{{ section.settings.text_position }}" style="background-color: {{ section.settings.background_color }};">
-  <div class="info-section__content">
-    <h2 class="info-section__title" style="font-size: {{ section.settings.title_size }}px;">
-      {{ section.settings.title | escape }}
-    </h2>
-    <div class="info-section__text" style="font-size: {{ section.settings.text_size }}px;">
-      {{ section.settings.text_content }}
-    </div>
-  </div>
+<section class="info-section" style="--info-background: {{ section.settings.background_color }};">
+  {{ section.settings.text_content }}
+  <div class="separator"></div>
 </section>
 
 {% schema %}
 {
-  "name": "Info Section",
+  "name": "Informations importantes",
   "tag": "section",
-  "class": "info-section-wrapper",
+  "class": "info-important-wrapper",
   "settings": [
-    {
-      "type": "select",
-      "id": "text_position",
-      "label": "Position du texte",
-      "options": [
-        { "value": "left", "label": "Gauche" },
-        { "value": "center", "label": "Centré" },
-        { "value": "right", "label": "Droite" }
-      ],
-      "default": "center"
-    },
     {
       "type": "color",
       "id": "background_color",
       "label": "Couleur de fond",
-      "default": "#ffffff"
-    },
-    {
-      "type": "range",
-      "id": "title_size",
-      "label": "Taille du titre (px)",
-      "min": 16,
-      "max": 48,
-      "step": 1,
-      "default": 28
-    },
-    {
-      "type": "range",
-      "id": "text_size",
-      "label": "Taille du texte (px)",
-      "min": 12,
-      "max": 24,
-      "step": 1,
-      "default": 16
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Titre",
-      "default": "Votre titre ici"
+      "default": "#f2f2f2"
     },
     {
       "type": "richtext",
       "id": "text_content",
-      "label": "Contenu principal",
-      "default": "<p>Votre texte ici. Vous pouvez ajouter des liens, du gras ou des listes.</p>"
+      "label": "Contenu texte",
+      "default": "<h3>Informations Générales</h3><p>* Les frais et informations mentionnés sont donnés à titre indicatif et peuvent varier.</p><p>PulSed Store s’engage à offrir des produits de haute qualité conformes aux normes internationales.</p><h3>Sécurité et Réglementations</h3><p>Les informations de sécurité sont disponibles dans le guide d’utilisation fourni.</p><p><strong>DAS :</strong> Tous nos appareils respectent les normes :</p><ul><li><strong>DAS tête :</strong> max 2 W/kg</li><li><strong>DAS tronc :</strong> max 2 W/kg</li><li><strong>DAS membre :</strong> max 4 W/kg</li></ul><p>Ces normes garantissent une utilisation sûre pour les utilisateurs.</p><h3>Écoresponsabilité et Recyclage</h3><p>Nos fiches produits incluent :</p><ul><li>La composition des matériaux</li><li>L’indice de réparabilité</li><li>Les options de recyclage</li></ul><p>Rejoignez notre programme de reprise pour donner une seconde vie à vos produits.</p>"
     }
   ],
   "presets": [
     {
-      "name": "Info Section",
+      "name": "Informations importantes",
       "category": "Texte"
     }
   ]
