@@ -51,12 +51,6 @@
     "rich_text_xenTwR": {
       "type": "rich-text",
       "blocks": {
-        "subheading_FnMe4U": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_mzrUwE": {
           "type": "heading",
           "settings": {
@@ -65,18 +59,10 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "richtext_UDJg3c": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
         }
       },
       "block_order": [
-        "subheading_FnMe4U",
-        "heading_mzrUwE",
-        "richtext_UDJg3c"
+        "heading_mzrUwE"
       ],
       "settings": {
         "full_width": true,
@@ -114,8 +100,8 @@
             "order_by": "date_desc",
             "buy_now_text": "Add to cart",
             "color_play_button": "#000000",
-            "color_play_button_inner": "#FFFFFF",
-            "border_color": "#000",
+            "color_play_button_inner": "#ffffff",
+            "border_color": "#000000",
             "border_size": 0,
             "overflow": false
           }
