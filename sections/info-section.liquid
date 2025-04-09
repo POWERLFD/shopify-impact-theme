@@ -1,90 +1,94 @@
+{% stylesheet %}
+.info-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.info-section--left {
+  text-align: left;
+}
+.info-section--right {
+  text-align: right;
+}
+.info-section__title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.info-section__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+{% endstylesheet %}
+
+<section class="info-section info-section--{{ section.settings.text_position }}" style="background-color: {{ section.settings.background_color }};">
+  <div class="info-section__content">
+    <h2 class="info-section__title" style="font-size: {{ section.settings.title_size }}px;">
+      {{ section.settings.title | escape }}
+    </h2>
+    <div class="info-section__text" style="font-size: {{ section.settings.text_size }}px;">
+      {{ section.settings.text_content }}
+    </div>
+  </div>
+</section>
+
 {% schema %}
 {
-  "name": "info-section",
+  "name": "Info Section",
   "tag": "section",
-  "class": "info-section-section",
+  "class": "info-section-wrapper",
   "settings": [
     {
-      "type": "richtext",
-      "id": "content",
-      "label": "Contenu HTML",
-      "default": "<h3>Informations générales</h3><p>Ajoutez ici votre contenu.</p>"
-    },
-    {
       "type": "select",
-      "id": "text_alignment",
-      "label": "Alignement du texte",
-      "default": "left",
+      "id": "text_position",
+      "label": "Position du texte",
       "options": [
         { "value": "left", "label": "Gauche" },
-        { "value": "center", "label": "Centre" },
+        { "value": "center", "label": "Centré" },
         { "value": "right", "label": "Droite" }
-      ]
+      ],
+      "default": "center"
     },
     {
       "type": "color",
       "id": "background_color",
       "label": "Couleur de fond",
-      "default": "#f2f2f2"
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Taille du titre (px)",
+      "min": 16,
+      "max": 48,
+      "step": 1,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte (px)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Votre titre ici"
+    },
+    {
+      "type": "richtext",
+      "id": "text_content",
+      "label": "Contenu principal",
+      "default": "<p>Votre texte ici. Vous pouvez ajouter des liens, du gras ou des listes.</p>"
     }
   ],
   "presets": [
     {
       "name": "Info Section",
-      "category": "Custom"
+      "category": "Texte"
     }
   ]
 }
 {% endschema %}
-
-{% style %}
-  .info-section-wrapper {
-    padding: 40px 20px;
-  }
-  .info-section-content {
-    max-width: 900px;
-    margin: 0 auto;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #6e6e73;
-    font-size: 14px;
-    line-height: 1.8;
-  }
-
-  .info-section-content h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #1d1d1f;
-  }
-
-  .info-section-content p {
-    margin-bottom: 12px;
-  }
-
-  .info-section-content ul {
-    margin-left: 20px;
-    list-style-type: disc;
-    margin-bottom: 12px;
-  }
-
-  .info-section-content strong {
-    color: #333;
-  }
-
-  .info-section-content.left {
-    text-align: left;
-  }
-
-  .info-section-content.center {
-    text-align: center;
-  }
-
-  .info-section-content.right {
-    text-align: right;
-  }
-{% endstyle %}
-
-<div class="info-section-wrapper" style="background-color: {{ settings.background_color }};">
-  <div class="info-section-content {{ settings.text_alignment }}">
-    {{ settings.content }}
-  </div>
-</div>
