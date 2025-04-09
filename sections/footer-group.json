@@ -85,7 +85,7 @@
         "payment"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h6",
