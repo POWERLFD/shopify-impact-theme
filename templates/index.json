@@ -97,7 +97,7 @@
             "redirect_to_cart": true,
             "align_heading": "left",
             "align_items": "center",
-            "order_by": "date_desc",
+            "order_by": "order_asc",
             "buy_now_text": "Add to cart",
             "color_play_button": "#000000",
             "color_play_button_inner": "#ffffff",
