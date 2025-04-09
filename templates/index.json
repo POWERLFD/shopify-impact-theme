@@ -87,6 +87,57 @@
         "text_color": ""
       }
     },
+    "1744229244d1d9c380": {
+      "type": "apps",
+      "blocks": {
+        "vimonial_shoppable_videos_ugc_app_block_carousel_6CdKKe": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_carousel/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "heading": "",
+            "description": "",
+            "campaign_id": "cm9acdy1922500clagct7r8s7",
+            "shadow_size": 10,
+            "width": 320,
+            "width_mobile": 150,
+            "slide_gap": 10,
+            "autoplay": true,
+            "display_discount": true,
+            "display_card": true,
+            "popup": true,
+            "show_names": false,
+            "prev_next_buttons": false,
+            "force_aspect": false,
+            "display_atc": false,
+            "redirect_to_cart": true,
+            "align_heading": "left",
+            "align_items": "center",
+            "order_by": "date_desc",
+            "buy_now_text": "Add to cart",
+            "color_play_button": "#000000",
+            "color_play_button_inner": "#FFFFFF",
+            "border_color": "#000",
+            "border_size": 0,
+            "overflow": false
+          }
+        }
+      },
+      "block_order": [
+        "vimonial_shoppable_videos_ugc_app_block_carousel_6CdKKe"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -896,6 +947,7 @@
   "order": [
     "slideshow",
     "rich_text_xenTwR",
+    "1744229244d1d9c380",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
