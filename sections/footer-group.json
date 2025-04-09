@@ -11,43 +11,12 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "rich_text_GRzryY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_jyWRpC": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_XaEDjc": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_jeAf4G": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_jyWRpC",
-        "heading_XaEDjc",
-        "richtext_jeAf4G"
-      ],
+    "info_section_HyCjry": {
+      "type": "info-section",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "content": "<h2>Informations Générales</h2><p>Les données tarifaires et autres informations communiquées le sont à titre indicatif. Elles peuvent évoluer selon les périodes, les promotions en cours ou des conditions particulières.</p><p>Chez <strong>POWERKIT Store</strong>, nous sélectionnons rigoureusement nos produits auprès de fabricants reconnus, afin de garantir une qualité optimale et une conformité totale avec les standards internationaux en vigueur.</p><h3>Sécurité et normes</h3><p>Chaque appareil est accompagné d’un guide d’utilisation détaillé. Il est essentiel de le consulter avant toute première utilisation.</p><p><strong>Débit d'Absorption Spécifique (DAS)</strong> :<br/><br/>Nos appareils respectent scrupuleusement les réglementations françaises et européennes :</p><ul><li><strong>DAS tête :</strong> maximum 2 W/kg</li><li><strong>DAS tronc :</strong> maximum 2 W/kg</li><li><strong>DAS membre :</strong> maximum 4 W/kg</li></ul><p>Ces seuils assurent une exposition maîtrisée aux ondes électromagnétiques et une utilisation en toute sécurité.</p><h3>Engagement écoresponsable</h3><p><strong>POWERKIT Store</strong> s’inscrit dans une démarche respectueuse de l’environnement en mettant en avant des produits durables et en facilitant leur recyclage. Sur chaque fiche produit, vous trouverez :</p><ul><li>La composition des matériaux utilisés</li><li>L’indice de réparabilité</li><li>Des solutions concrètes pour le recyclage de vos anciens équipements</li></ul><p>Un programme de reprise est également proposé pour prolonger la vie de vos appareils usagés.</p><h3>Avantages et offres partenaires</h3><p>Certains de nos articles incluent des services complémentaires comme des abonnements numériques offerts ou des essais gratuits. Ces avantages sont soumis à certaines conditions :</p><ul><li>Un seul avantage par foyer</li><li>Valable uniquement durant la période précisée au moment de l’achat</li><li>Les abonnements se renouvellent automatiquement à l’issue de l’essai (sauf résiliation)</li></ul><p>Toutes les modalités sont précisées dans les fiches des produits concernés.</p><h3>Performances et spécificités techniques</h3><p>Les dimensions des écrans, leur résolution ou encore les options intégrées peuvent varier selon les modèles. Nous vous recommandons de consulter la fiche technique de chaque appareil pour en connaître les détails précis.</p><p>En ce qui concerne l’autonomie, plusieurs éléments peuvent l’influencer : la configuration du réseau, l’intensité d’utilisation ou les réglages personnels. Comme toute batterie lithium, un nombre limité de cycles de charge est prévu, et un remplacement pourra s’avérer nécessaire à long terme.</p><h3>Livraison et suivi des commandes</h3><p>Afin d’assurer des livraisons rapides, <strong>POWERKIT Store</strong> utilise votre localisation, déterminée via votre IP ou à partir des données de vos précédentes commandes. Vous avez accès à un suivi clair et en temps réel de votre commande directement dans votre espace client.</p><h3>Garantie et assistance</h3><p>Tous les produits vendus sur <strong>POWERKIT Store</strong> sont couverts par notre garantie satisfaction. Notre équipe SAV est à votre disposition pour tout besoin : question technique, réparation, remplacement…</p><p>Pour toute demande, notre service client vous accompagne avec réactivité et transparence.</p>",
+        "text_alignment": "left",
+        "background_color": "#f2f2f2"
       }
     },
     "text-with-icons": {
@@ -207,7 +176,7 @@
     }
   },
   "order": [
-    "rich_text_GRzryY",
+    "info_section_HyCjry",
     "text-with-icons",
     "rich_text_pXxA89",
     "footer"
