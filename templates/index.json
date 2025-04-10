@@ -54,7 +54,7 @@
         "heading_mzrUwE": {
           "type": "heading",
           "settings": {
-            "text": "DÉCOUVREZ LE POWER KIT EN VIDÉO🔋",
+            "text": "Découvrez le POWER KIT en vidéo🔋",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -137,6 +137,45 @@
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
+      }
+    },
+    "rich_text_bMkpzG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_NMiejc": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_nQb3AK": {
+          "type": "heading",
+          "settings": {
+            "text": "Tous les accessoires de la POWER KIT pour votre iPhone",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_A7KzLV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Le </p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NMiejc",
+        "heading_nQb3AK",
+        "richtext_A7KzLV"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "image-link-blocks": {
@@ -1000,6 +1039,7 @@
     "rich_text_xenTwR",
     "1744286073c8980240",
     "scrolling-text",
+    "rich_text_bMkpzG",
     "image-link-blocks",
     "image_link_blocks_NajmbH",
     "featured-collection",
