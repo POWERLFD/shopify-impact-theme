@@ -265,7 +265,7 @@
         "full_width": false,
         "block_size": "small",
         "subheading": "",
-        "title": "Que contient le POWER KIT 6 en 1 ?",
+        "title": "Que contient le POWERKIT 6 en 1 ?",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -273,7 +273,7 @@
         "background_gradient": "",
         "text_color": "#000000",
         "heading_color": "#000000",
-        "heading_gradient": ""
+        "heading_gradient": "linear-gradient(46deg, rgba(0, 0, 0, 1) 13%, rgba(153, 153, 153, 1) 49%, rgba(0, 0, 0, 1) 98%)"
       }
     },
     "image_link_blocks_NajmbH": {
@@ -384,7 +384,7 @@
         "full_width": false,
         "block_size": "small",
         "subheading": "",
-        "title": "Que contient le POWER KIT 7 en 1 ?",
+        "title": "Que contient le POWERKIT 7 en 1 ?",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -392,7 +392,7 @@
         "background_gradient": "",
         "text_color": "#000000",
         "heading_color": "#000000",
-        "heading_gradient": ""
+        "heading_gradient": "linear-gradient(46deg, rgba(0, 0, 0, 1) 13%, rgba(153, 153, 153, 1) 49%, rgba(0, 0, 0, 1) 93%)"
       }
     },
     "impact-text": {
