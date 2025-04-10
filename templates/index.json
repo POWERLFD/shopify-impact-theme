@@ -147,10 +147,10 @@
           "settings": {
             "image": "shopify://shop_images/Coque_MagSafe.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Coque MagSafe iPhone",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
