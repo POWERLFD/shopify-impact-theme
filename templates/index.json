@@ -329,11 +329,11 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Cable_chargeur_iPhone.webp",
-            "stretch_image": true,
+            "stretch_image": false,
             "link_text": "Câble de charge iPhone",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
