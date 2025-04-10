@@ -739,10 +739,6 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -802,7 +798,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
@@ -815,7 +810,7 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "power-kit-6-en-1",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
