@@ -54,7 +54,7 @@
         "heading_mzrUwE": {
           "type": "heading",
           "settings": {
-            "text": "Découvrez le POWER KIT en vidéo🔋",
+            "text": "Découvrez le POWERKIT en vidéo🔋",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -142,37 +142,30 @@
     "rich_text_bMkpzG": {
       "type": "rich-text",
       "blocks": {
-        "subheading_NMiejc": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_nQb3AK": {
           "type": "heading",
           "settings": {
-            "text": "Tous les accessoires de la POWER KIT pour votre iPhone",
+            "text": "POWERKIT. Tout ce dont votre iPhone a besoin.",
             "heading_tag": "h2",
             "text_color": "",
-            "gradient": ""
+            "gradient": "linear-gradient(83deg, rgba(69, 69, 69, 1) 20%, rgba(153, 153, 153, 1) 43%, rgba(0, 0, 0, 1) 74%)"
           }
         },
         "richtext_A7KzLV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Le </p>"
+            "content": "<p>Plus besoin de chercher à gauche et à droite pour acheter votre coque, votre chargeur, vos écouteurs, votre batterie externe... Avec POWERKIT, retrouvez une box qui réunie tous les accessoires de votre smartphone d'une valeur de plus de 300€, à un prix réduit. Profitez de nos produits de haute qualité ayant déjà fait leur preuve grâce à leur innovation et leur design.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_NMiejc",
         "heading_nQb3AK",
         "richtext_A7KzLV"
       ],
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
