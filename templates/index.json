@@ -158,19 +158,6 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Watch_connectee_1.webp",
-            "stretch_image": false,
-            "link_text": "Watch connectée",
-            "link_url": "",
-            "background": "",
-            "text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
             "image": "shopify://shop_images/Ecouteurs_2e_Gen.webp",
             "stretch_image": false,
             "link_text": "Écouteurs 2e Gen",
@@ -181,11 +168,37 @@
             "overlay_opacity": 0
           }
         },
+        "1664424046b00c932c-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/batterie_externe_MagSafe_b44278c7-df64-402b-9930-df5b8e2ae28e.webp",
+            "stretch_image": false,
+            "link_text": "Batterie externe MagSafe",
+            "link_url": "",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Chargeur_MagSafe_sans_fil.webp",
+            "stretch_image": false,
+            "link_text": "Chargeur MagSafe",
+            "link_url": "",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "item_Mea7Vk": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Adaptateur_charge_rapide_iPhone.webp",
-            "stretch_image": true,
+            "image": "shopify://shop_images/Chargeur_rapide_iPhone.webp",
+            "stretch_image": false,
             "link_text": "Chargeur rapide iPhone",
             "link_url": "",
             "background": "",
@@ -197,22 +210,9 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Cable_de_charge_iPhone.webp",
-            "stretch_image": true,
+            "image": "shopify://shop_images/Cable_chargeur_iPhone.webp",
+            "stretch_image": false,
             "link_text": "Câble de charge iPhone",
-            "link_url": "",
-            "background": "",
-            "text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Chargeur_sans_fil_MagSafe.webp",
-            "stretch_image": true,
-            "link_text": "Chargeur MagSafe",
             "link_url": "",
             "background": "",
             "text_color": "#000000",
@@ -225,9 +225,9 @@
         "1664424046b00c932c-0",
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac",
         "item_Mea7Vk",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "1664424046b00c932c-3"
       ],
       "settings": {
         "full_width": false,
