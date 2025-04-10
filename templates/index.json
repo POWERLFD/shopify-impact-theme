@@ -501,7 +501,8 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/Personnel_du_service_client.webp",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
