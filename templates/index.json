@@ -315,7 +315,7 @@
         "item_UHUdzQ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Chargeur_MagSafe_sans_fil.webp",
+            "image": "shopify://shop_images/Chargeur_rapide_iPhone.webp",
             "stretch_image": false,
             "link_text": "Chargeur rapide iPhone",
             "link_url": "",
@@ -328,9 +328,9 @@
         "item_MbFktK": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Chargeur_MagSafe_sans_fil.webp",
+            "image": "shopify://shop_images/Cable_chargeur_iPhone.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Câble de charge iPhone",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
