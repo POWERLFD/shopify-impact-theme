@@ -130,6 +130,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Coque_MagSafe.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -142,6 +143,7 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Batterie_externe_MagSafe.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -154,6 +156,7 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -166,6 +169,7 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Watch_connectee_noire.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -199,14 +203,14 @@
         "full_width": false,
         "block_size": "medium",
         "subheading": "",
-        "title": "DÉCOUVREZ LE POWERKT EN VIDÉO🔋",
+        "title": "Que contient le POWER KIT 6 en 1 ?",
         "content": "",
         "link_url": "",
         "link_text": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
+        "text_color": "#000000",
+        "heading_color": "#000000",
         "heading_gradient": ""
       }
     },
