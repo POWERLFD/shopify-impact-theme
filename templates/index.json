@@ -545,7 +545,8 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/Reparation.webp",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
