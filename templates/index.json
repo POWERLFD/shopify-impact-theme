@@ -470,6 +470,31 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_AJ6MFK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CEhGk3": {
+          "type": "heading",
+          "settings": {
+            "text": "Assistance. Disponible rien que pour vous",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CEhGk3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -874,6 +899,7 @@
     "image_link_blocks_NajmbH",
     "impact-text",
     "image-with-text-overlay",
+    "rich_text_AJ6MFK",
     "media-grid",
     "press",
     "hot-spots",
