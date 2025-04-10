@@ -73,10 +73,10 @@
         "text_color": ""
       }
     },
-    "1744229244d1d9c380": {
+    "1744286073c8980240": {
       "type": "apps",
       "blocks": {
-        "vimonial_shoppable_videos_ugc_app_block_carousel_6CdKKe": {
+        "vimonial_shoppable_videos_ugc_app_block_carousel_dyC7tB": {
           "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_carousel/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
           "settings": {
             "heading": "",
@@ -97,20 +97,19 @@
             "redirect_to_cart": true,
             "align_heading": "left",
             "align_items": "center",
-            "order_by": "order_asc",
+            "order_by": "date_desc",
             "buy_now_text": "Add to cart",
             "color_play_button": "#000000",
-            "color_play_button_inner": "#ffffff",
-            "border_color": "#000000",
+            "color_play_button_inner": "#FFFFFF",
+            "border_color": "#000",
             "border_size": 0,
             "overflow": false
           }
         }
       },
       "block_order": [
-        "vimonial_shoppable_videos_ugc_app_block_carousel_6CdKKe"
+        "vimonial_shoppable_videos_ugc_app_block_carousel_dyC7tB"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -939,7 +938,7 @@
   "order": [
     "slideshow",
     "rich_text_xenTwR",
-    "1744229244d1d9c380",
+    "1744286073c8980240",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
