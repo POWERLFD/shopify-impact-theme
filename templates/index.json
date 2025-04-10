@@ -252,10 +252,10 @@
           "settings": {
             "image": "shopify://shop_images/Coque_MagSafe.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Coque MagSafe iPhone",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -265,10 +265,10 @@
           "settings": {
             "image": "shopify://shop_images/Watch_connectee_noire.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Watch connectée",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -278,10 +278,10 @@
           "settings": {
             "image": "shopify://shop_images/Batterie_externe_MagSafe.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Batterie externe MagSafe",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -291,10 +291,10 @@
           "settings": {
             "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Écouteurs 2e Gen",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -304,10 +304,10 @@
           "settings": {
             "image": "shopify://shop_images/Adaptateur_charge_rapide_iPhone.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Chargeur rapide iPhone",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -317,10 +317,10 @@
           "settings": {
             "image": "shopify://shop_images/Cable_de_charge_iPhone.webp",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Câble de charge iPhone",
             "link_url": "",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
