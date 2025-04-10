@@ -299,6 +299,32 @@
             "overlay_opacity": 0
           }
         },
+        "item_k4QdmP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Adaptateur_charge_rapide_iPhone.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_UHUdzQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Cable_de_charge_iPhone.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "item_MbFktK": {
           "type": "item",
           "settings": {
@@ -318,6 +344,8 @@
         "item_47eTmk",
         "item_qf8D6B",
         "item_d8w9EU",
+        "item_k4QdmP",
+        "item_UHUdzQ",
         "item_MbFktK"
       ],
       "settings": {
