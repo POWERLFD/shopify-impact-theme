@@ -754,11 +754,23 @@
             "show_rating": false,
             "rating": 4
           }
+        },
+        "quote_rLbKye": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Frandroid_logo.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Tout ce dont vous avez besoin est dans ce kit",
+            "show_rating": true,
+            "rating": 5
+          }
         }
       },
       "block_order": [
         "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
+        "16644243327ba53d2a-1",
+        "quote_rLbKye"
       ],
       "settings": {
         "full_width": true,
