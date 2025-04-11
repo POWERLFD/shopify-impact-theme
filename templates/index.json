@@ -421,16 +421,6 @@
         "text_color": ""
       }
     },
-    "title_section_xUadX4": {
-      "type": "title-section",
-      "settings": {
-        "title": "Votre titre ici",
-        "text_alignment": "center",
-        "enable_gradient": false,
-        "margin_top": 2,
-        "margin_bottom": 2
-      }
-    },
     "comparaison_product_ebaANg": {
       "type": "comparaison-product",
       "blocks": {
@@ -468,15 +458,7 @@
         "product_2_VFgA8x"
       ],
       "settings": {
-        "title": "",
-        "title_font_size": 1,
-        "title_weight": "font-extrabold",
-        "title_color": "#000000",
-        "title_gradient": true,
-        "gradient_start": "#686868",
-        "gradient_end": "#1a202c",
         "background_color": "#ffffff",
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -946,7 +928,6 @@
     "image-link-blocks",
     "image_link_blocks_NajmbH",
     "rich_text_ybPhcw",
-    "title_section_xUadX4",
     "comparaison_product_ebaANg",
     "featured-product",
     "impact-text",

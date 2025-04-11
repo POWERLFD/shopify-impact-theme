@@ -5,70 +5,10 @@
   "class": "section product-comparison",
   "settings": [
     {
-  "type": "text",
-  "id": "title",
-  "label": "Titre principal",
-  "default": "Titre par défaut"
-},
-    {
-      "type": "range",
-      "id": "title_font_size",
-      "label": "Taille du titre (rem)",
-      "min": 1,
-      "max": 6,
-      "step": 0.1,
-      "default": 2.5
-    },
-    {
-      "type": "select",
-      "id": "title_weight",
-      "label": "Graisse du titre",
-      "default": "font-bold",
-      "options": [
-        { "value": "font-normal", "label": "Normal" },
-        { "value": "font-medium", "label": "Semi-gras" },
-        { "value": "font-bold", "label": "Gras" },
-        { "value": "font-extrabold", "label": "Très gras" }
-      ]
-    },
-    {
-      "type": "color",
-      "id": "title_color",
-      "label": "Couleur du titre",
-      "default": "#000000"
-    },
-    {
-      "type": "checkbox",
-      "id": "title_gradient",
-      "label": "Activer un dégradé",
-      "default": false
-    },
-    {
-      "type": "color",
-      "id": "gradient_start",
-      "label": "Dégradé - couleur de début",
-      "default": "#4fd1c5"
-    },
-    {
-      "type": "color",
-      "id": "gradient_end",
-      "label": "Dégradé - couleur de fin",
-      "default": "#1a202c"
-    },
-    {
       "type": "color",
       "id": "background_color",
       "label": "Couleur de fond de la section",
       "default": "#ffffff"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "label": "Marge haute (rem)",
-      "min": 0,
-      "max": 10,
-      "step": 0.5,
-      "default": 0
     },
     {
       "type": "range",
@@ -123,39 +63,8 @@
 
 <section
   class="product-comparison-wrapper"
-  style="
-    background-color: {{ section.settings.background_color }};
-    padding-top: {{ section.settings.padding_top }}rem;
-    padding-bottom: {{ section.settings.padding_bottom }}rem;
-  "
+  style="background-color: {{ section.settings.background_color }}; padding-bottom: {{ section.settings.padding_bottom }}rem;"
 >
-  {% if section.settings.title != blank %}
-    <h2
-      class="text-center mb-8 {{ section.settings.title_weight }}"
-      style="
-        font-size: {{ section.settings.title_font_size }}rem;
-        {% unless section.settings.title_gradient %}
-          color: {{ section.settings.title_color }};
-        {% endunless %}
-      "
-    >
-      {% if section.settings.title_gradient %}
-        <span
-          style="
-            background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: inline-block;
-          "
-        >
-          {{ section.settings.title }}
-        </span>
-      {% else %}
-        {{ section.settings.title }}
-      {% endif %}
-    </h2>
-  {% endif %}
-
   <div class="product-comparison-grid">
     {% for block in section.blocks %}
       {% assign product = all_products[block.settings.product] %}
@@ -208,9 +117,6 @@
 </section>
 
 <style>
-.product-comparison-wrapper {
-  padding-top: 0 !important;
-}
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
