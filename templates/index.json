@@ -395,6 +395,31 @@
         "heading_gradient": "linear-gradient(46deg, rgba(0, 0, 0, 1) 13%, rgba(153, 153, 153, 1) 49%, rgba(0, 0, 0, 1) 93%)"
       }
     },
+    "rich_text_ybPhcw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gBpbkT": {
+          "type": "heading",
+          "settings": {
+            "text": "Le POWERKIT qu'il vous faut",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": "linear-gradient(310deg, rgba(153, 153, 153, 1), rgba(0, 0, 0, 1) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gBpbkT"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "comparaison_product_ebaANg": {
       "type": "comparaison-product",
       "blocks": {
@@ -909,6 +934,7 @@
     "rich_text_bMkpzG",
     "image-link-blocks",
     "image_link_blocks_NajmbH",
+    "rich_text_ybPhcw",
     "comparaison_product_ebaANg",
     "featured-product",
     "impact-text",
