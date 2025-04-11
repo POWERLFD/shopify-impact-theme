@@ -20,17 +20,6 @@
       "default": 2.5
     },
     {
-      "type": "select",
-      "id": "title_font",
-      "label": "Police du titre",
-      "default": "sans-serif",
-      "options": [
-        { "value": "sans-serif", "label": "Sans Serif" },
-        { "value": "serif", "label": "Serif" },
-        { "value": "monospace", "label": "Monospace" }
-      ]
-    },
-    {
       "type": "color",
       "id": "title_color",
       "label": "Couleur du titre",
@@ -44,9 +33,39 @@
     },
     {
       "type": "color",
+      "id": "gradient_start",
+      "label": "Dégradé - couleur de début",
+      "default": "#4fd1c5"
+    },
+    {
+      "type": "color",
+      "id": "gradient_end",
+      "label": "Dégradé - couleur de fin",
+      "default": "#1a202c"
+    },
+    {
+      "type": "color",
       "id": "background_color",
       "label": "Couleur de fond de la section",
       "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge haute (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge basse (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 4
     }
   ],
   "blocks": [
@@ -90,11 +109,10 @@
 }
 {% endschema %}
 
-<section class="product-comparison-wrapper" style="background-color: {{ section.settings.background_color }}">
+<section class="product-comparison-wrapper" style="background-color: {{ section.settings.background_color }}; padding-top: {{ section.settings.padding_top }}rem; padding-bottom: {{ section.settings.padding_bottom }}rem;">
   <h2 
     class="text-center font-bold mb-8"
     style="
-      font-family: {{ section.settings.title_font }};
       font-size: {{ section.settings.title_font_size }}rem;
       {% unless section.settings.title_gradient %}
         color: {{ section.settings.title_color }};
@@ -103,7 +121,7 @@
   >
     {% if section.settings.title_gradient %}
       <span style="
-        background: linear-gradient(90deg, #4fd1c5, {{ section.settings.title_color }});
+        background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         display: inline-block;
@@ -167,9 +185,6 @@
 </section>
 
 <style>
-.product-comparison-wrapper {
-  padding: 4rem 2rem;
-}
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
