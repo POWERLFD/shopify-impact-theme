@@ -32,6 +32,24 @@
       ]
     },
     {
+      "type": "range",
+      "id": "title_margin_bottom",
+      "label": "Espace sous le titre (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.2,
+      "default": 1.4
+    },
+    {
+      "type": "range",
+      "id": "content_margin_bottom",
+      "label": "Espace sous les blocs (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.2,
+      "default": 2.4
+    },
+    {
       "type": "color",
       "id": "title_color",
       "label": "Couleur du titre",
@@ -123,12 +141,19 @@
 
 <section
   class="product-comparison-wrapper full-width"
-  style="background-color: {{ section.settings.background_color }}; padding-top: {{ section.settings.padding_top }}rem; padding-bottom: {{ section.settings.padding_bottom }}rem;"
+  style="
+    background-color: {{ section.settings.background_color }};
+    padding-top: {{ section.settings.padding_top }}rem;
+    padding-bottom: {{ section.settings.padding_bottom }}rem;
+    font-family: 'DIN Next', sans-serif;
+  "
 >
   <h2
-    class="text-center mb-4 {{ section.settings.title_weight }}"
+    class="text-center {{ section.settings.title_weight }}"
     style="
+      font-family: 'DIN Next Bold', sans-serif;
       font-size: {{ section.settings.title_font_size }}rem;
+      margin-bottom: {{ section.settings.title_margin_bottom }}rem;
       {% unless section.settings.title_gradient %}
         color: {{ section.settings.title_color }};
       {% endunless %}
@@ -140,6 +165,7 @@
           background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          font-family: 'DIN Next Bold', sans-serif;
           display: inline-block;
         "
       >
@@ -150,7 +176,10 @@
     {% endif %}
   </h2>
 
-  <div class="product-comparison-grid">
+  <div
+    class="product-comparison-grid"
+    style="margin-bottom: {{ section.settings.content_margin_bottom }}rem;"
+  >
     {% for block in section.blocks %}
       {% assign product = all_products[block.settings.product] %}
       {% if product %}
@@ -238,9 +267,9 @@
   margin: 1rem auto 2rem;
 }
 .product-title {
-  font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
+  font-family: 'DIN Next Bold', sans-serif;
 }
 .product-subtitle {
   font-style: italic;
