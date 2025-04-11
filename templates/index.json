@@ -432,7 +432,15 @@
         "product_2_VFgA8x"
       ],
       "settings": {
-        "title": "Adoptez votre PulSedBox !"
+        "title": "Adoptez votre PulSedBox !",
+        "title_font_size": 2.5,
+        "title_color": "#000000",
+        "title_gradient": false,
+        "gradient_start": "#4fd1c5",
+        "gradient_end": "#1a202c",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured-product": {
