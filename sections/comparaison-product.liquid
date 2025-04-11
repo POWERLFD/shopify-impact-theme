@@ -5,11 +5,11 @@
   "class": "section product-comparison",
   "settings": [
     {
-      "type": "text",
-      "id": "title",
-      "label": "Titre principal",
-      "default": "Adoptez votre PulSedBox !"
-    },
+  "type": "text",
+  "id": "title",
+  "label": "Titre principal",
+  "default": "Titre par défaut"
+},
     {
       "type": "range",
       "id": "title_font_size",
@@ -68,7 +68,7 @@
       "min": 0,
       "max": 10,
       "step": 0.5,
-      "default": 4
+      "default": 0
     },
     {
       "type": "range",
@@ -123,32 +123,38 @@
 
 <section
   class="product-comparison-wrapper"
-  style="background-color: {{ section.settings.background_color }}; padding-top: {{ section.settings.padding_top }}rem; padding-bottom: {{ section.settings.padding_bottom }}rem;"
+  style="
+    background-color: {{ section.settings.background_color }};
+    padding-top: {{ section.settings.padding_top }}rem;
+    padding-bottom: {{ section.settings.padding_bottom }}rem;
+  "
 >
-  <h2
-    class="text-center mb-8 {{ section.settings.title_weight }}"
-    style="
-      font-size: {{ section.settings.title_font_size }}rem;
-      {% unless section.settings.title_gradient %}
-        color: {{ section.settings.title_color }};
-      {% endunless %}
-    "
-  >
-    {% if section.settings.title_gradient %}
-      <span
-        style="
-          background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          display: inline-block;
-        "
-      >
+  {% if section.settings.title != blank %}
+    <h2
+      class="text-center mb-8 {{ section.settings.title_weight }}"
+      style="
+        font-size: {{ section.settings.title_font_size }}rem;
+        {% unless section.settings.title_gradient %}
+          color: {{ section.settings.title_color }};
+        {% endunless %}
+      "
+    >
+      {% if section.settings.title_gradient %}
+        <span
+          style="
+            background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+          "
+        >
+          {{ section.settings.title }}
+        </span>
+      {% else %}
         {{ section.settings.title }}
-      </span>
-    {% else %}
-      {{ section.settings.title }}
-    {% endif %}
-  </h2>
+      {% endif %}
+    </h2>
+  {% endif %}
 
   <div class="product-comparison-grid">
     {% for block in section.blocks %}
@@ -202,6 +208,9 @@
 </section>
 
 <style>
+.product-comparison-wrapper {
+  padding-top: 0 !important;
+}
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
