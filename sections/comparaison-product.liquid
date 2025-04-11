@@ -109,44 +109,6 @@
       "label": "Couleur du texte du bouton",
       "default": "#ffffff"
     }
-  ],
-  "blocks": [
-    {
-      "type": "product_1",
-      "name": "Produit 1",
-      "settings": [
-        { "type": "product", "id": "product", "label": "Produit" },
-        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Simple et efficace" },
-        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": false },
-        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
-        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 6 en 1" },
-        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
-        { "type": "text", "id": "highlight_3", "label": "Point fort 3" },
-        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
-        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
-      ]
-    },
-    {
-      "type": "product_2",
-      "name": "Produit 2",
-      "settings": [
-        { "type": "product", "id": "product", "label": "Produit" },
-        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Comme un air de jamais vu" },
-        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": true },
-        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
-        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 7 en 1" },
-        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
-        { "type": "text", "id": "highlight_3", "label": "Point fort 3", "default": "Watch Ultra inclus" },
-        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
-        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
-      ]
-    }
-  ],
-  "max_blocks": 2,
-  "presets": [
-    {
-      "name": "Comparaison de deux produits"
-    }
   ]
 }
 {% endschema %}
@@ -357,5 +319,16 @@
   text-decoration: line-through;
   margin-left: 0.5rem;
   color: #999;
+}
+.add-to-cart {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+  filter: brightness(0.9);
 }
 </style>
