@@ -409,7 +409,9 @@
             "highlight_2": "Apple Music offert",
             "highlight_3": "",
             "highlight_4": "",
-            "highlight_5": ""
+            "highlight_5": "",
+            "button_text": "Ajouter au panier",
+            "button_color": "#4a9188"
           }
         },
         "product_2_VFgA8x": {
@@ -423,7 +425,9 @@
             "highlight_2": "Watch Ultra inclus",
             "highlight_3": "Apple Music offert",
             "highlight_4": "",
-            "highlight_5": ""
+            "highlight_5": "",
+            "button_text": "Ajouter au panier",
+            "button_color": "#4a9188"
           }
         }
       },
