@@ -98,10 +98,11 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image": "shopify://shop_images/STORE.png",
+            "image_width": 200,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "title": "Bienvenue dans le monde POWERKIT",
+            "content": "<p>Inscrivez-vous pour recevoir des informations, des mises à jour et des offres exclusives !</p>"
           }
         },
         "links": {
