@@ -736,11 +736,12 @@
         "16644243327ba53d2a-0": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/Logo_LesNumeriques.webp",
+            "logo_width": 180,
             "author": "",
             "content": "Le meilleur kit du marché pour vos accessoires d'iPhone !",
-            "show_rating": false,
-            "rating": 4
+            "show_rating": true,
+            "rating": 5
           }
         },
         "16644243327ba53d2a-1": {
