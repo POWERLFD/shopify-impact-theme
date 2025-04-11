@@ -5,6 +5,57 @@
   "class": "section product-comparison",
   "settings": [
     {
+      "type": "text",
+      "id": "title",
+      "label": "Titre principal",
+      "default": "Adoptez votre PulSedBox !"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "label": "Taille du titre (rem)",
+      "min": 1,
+      "max": 6,
+      "step": 0.1,
+      "default": 2.5
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Graisse du titre",
+      "default": "font-bold",
+      "options": [
+        { "value": "font-normal", "label": "Normal" },
+        { "value": "font-medium", "label": "Semi-gras" },
+        { "value": "font-bold", "label": "Gras" },
+        { "value": "font-extrabold", "label": "Très gras" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_gradient",
+      "label": "Activer un dégradé",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "gradient_start",
+      "label": "Dégradé - couleur de début",
+      "default": "#4fd1c5"
+    },
+    {
+      "type": "color",
+      "id": "gradient_end",
+      "label": "Dégradé - couleur de fin",
+      "default": "#1a202c"
+    },
+    {
       "type": "color",
       "id": "background_color",
       "label": "Couleur de fond de la section",
@@ -12,12 +63,21 @@
     },
     {
       "type": "range",
+      "id": "padding_top",
+      "label": "Marge haute (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 4
+    },
+    {
+      "type": "range",
       "id": "padding_bottom",
       "label": "Marge basse (rem)",
       "min": 0,
       "max": 10,
-      "step": 0.1,
-      "default": 1
+      "step": 0.5,
+      "default": 4
     }
   ],
   "blocks": [
@@ -63,8 +123,33 @@
 
 <section
   class="product-comparison-wrapper"
-  style="background-color: {{ section.settings.background_color }}; padding: 0 0 {{ section.settings.padding_bottom }}rem 0;"
+  style="background-color: {{ section.settings.background_color }}; padding-top: {{ section.settings.padding_top }}rem; padding-bottom: {{ section.settings.padding_bottom }}rem;"
 >
+  <h2
+    class="text-center mb-8 {{ section.settings.title_weight }}"
+    style="
+      font-size: {{ section.settings.title_font_size }}rem;
+      {% unless section.settings.title_gradient %}
+        color: {{ section.settings.title_color }};
+      {% endunless %}
+    "
+  >
+    {% if section.settings.title_gradient %}
+      <span
+        style="
+          background: linear-gradient(90deg, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+        "
+      >
+        {{ section.settings.title }}
+      </span>
+    {% else %}
+      {{ section.settings.title }}
+    {% endif %}
+  </h2>
+
   <div class="product-comparison-grid">
     {% for block in section.blocks %}
       {% assign product = all_products[block.settings.product] %}
@@ -117,16 +202,11 @@
 </section>
 
 <style>
-.product-comparison-wrapper {
-  margin-top: 0 !important;
-}
-
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: center;
-  margin: 0;
 }
 @media screen and (min-width: 768px) {
   .product-comparison-grid {
@@ -136,9 +216,9 @@
 }
 .product-card {
   background: #ffffff;
-  padding: 1.2rem;
-  border-radius: 0.75rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   text-align: center;
   flex: 1;
   max-width: 400px;
@@ -150,7 +230,7 @@
 .product-image {
   width: 100%;
   max-width: 360px;
-  margin: 0.5rem auto 1.5rem;
+  margin: 1rem auto 2rem;
 }
 .product-title {
   font-weight: 700;
@@ -170,24 +250,24 @@
   text-transform: uppercase;
   border-radius: 5px;
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .highlights {
   text-align: left;
-  margin: 0.5rem 0 1rem;
+  margin: 1rem 0;
   padding-left: 1rem;
   list-style: none;
 }
 .highlights li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.5rem;
 }
 .variant-select {
   width: 100%;
   padding: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 .price-box {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 .current-price {
   font-size: 1.25rem;
@@ -201,7 +281,7 @@
 .add-to-cart {
   background-color: #4a8d9e;
   color: white;
-  padding: 0.6rem 1.25rem;
+  padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 0.5rem;
   font-weight: bold;
