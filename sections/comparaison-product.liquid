@@ -217,7 +217,7 @@
 
           <form method="post" action="/cart/add">
             {% if product.variants.size > 1 %}
-              <select name="id" class="variant-select">
+              <select name="id">
                 {% for variant in product.variants %}
                   <option value="{{ variant.id }}">{{ variant.title }} — {{ variant.price | money }}</option>
                 {% endfor %}
