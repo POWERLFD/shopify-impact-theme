@@ -2,69 +2,62 @@
 {
   "name": "Titre personnalisé",
   "tag": "section",
-  "class": "section custom-title-section",
+  "class": "section section-heading",
   "settings": [
     {
       "type": "text",
       "id": "title",
       "label": "Texte du titre",
-      "default": "Votre titre ici"
+      "default": "Titre de section"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Taille du titre",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ]
     },
     {
       "type": "select",
       "id": "text_alignment",
-      "label": "Alignement",
+      "label": "Alignement du texte",
       "default": "center",
       "options": [
         { "value": "left", "label": "Gauche" },
-        { "value": "center", "label": "Centre" },
+        { "value": "center", "label": "Centré" },
         { "value": "right", "label": "Droite" }
-      ]
-    },
-    {
-      "type": "range",
-      "id": "font_size",
-      "label": "Taille du titre (rem)",
-      "min": 1,
-      "max": 6,
-      "step": 0.1,
-      "default": 3
-    },
-    {
-      "type": "select",
-      "id": "font_weight",
-      "label": "Graisse de la police",
-      "default": "font-bold",
-      "options": [
-        { "value": "font-normal", "label": "Normal" },
-        { "value": "font-medium", "label": "Semi-gras" },
-        { "value": "font-bold", "label": "Gras" },
-        { "value": "font-extrabold", "label": "Très gras" }
       ]
     },
     {
       "type": "checkbox",
       "id": "enable_gradient",
-      "label": "Activer un dégradé",
+      "label": "Activer le dégradé de couleur",
       "default": false
     },
     {
       "type": "color",
-      "id": "color_start",
-      "label": "Dégradé - couleur de départ",
+      "id": "text_color",
+      "label": "Couleur du texte (si dégradé désactivé)",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "gradient_start",
+      "label": "Dégradé - couleur de début",
       "default": "#4fd1c5"
     },
     {
       "type": "color",
-      "id": "color_end",
+      "id": "gradient_end",
       "label": "Dégradé - couleur de fin",
       "default": "#1a202c"
-    },
-    {
-      "type": "color",
-      "id": "solid_color",
-      "label": "Couleur du texte (si pas de dégradé)",
-      "default": "#000000"
     },
     {
       "type": "range",
@@ -93,34 +86,29 @@
 }
 {% endschema %}
 
-<section
-  class="custom-title-wrapper"
+{% assign tag = section.settings.heading_tag %}
+<{{ tag }}
+  class="custom-heading prose break-words text-{{ section.settings.text_alignment }}"
   style="
     margin-top: {{ section.settings.margin_top }}rem;
     margin-bottom: {{ section.settings.margin_bottom }}rem;
-    text-align: {{ section.settings.text_alignment }};
+    {% unless section.settings.enable_gradient %}
+      color: {{ section.settings.text_color }};
+    {% endunless %}
   "
 >
-  <h2
-    class="{{ section.settings.font_weight }}"
-    style="
-      font-size: {{ section.settings.font_size }}rem;
-      {% unless section.settings.enable_gradient %}
-        color: {{ section.settings.solid_color }};
-      {% endunless %}
-    "
-  >
-    {% if section.settings.enable_gradient %}
-      <span style="
-        background: linear-gradient(90deg, {{ section.settings.color_start }}, {{ section.settings.color_end }});
+  {% if section.settings.enable_gradient %}
+    <span
+      style="
+        background: linear-gradient(to right, {{ section.settings.gradient_start }}, {{ section.settings.gradient_end }});
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         display: inline-block;
-      ">
-        {{ section.settings.title }}
-      </span>
-    {% else %}
+      "
+    >
       {{ section.settings.title }}
-    {% endif %}
-  </h2>
-</section>
+    </span>
+  {% else %}
+    {{ section.settings.title }}
+  {% endif %}
+</{{ tag }}>

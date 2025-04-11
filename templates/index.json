@@ -421,6 +421,16 @@
         "text_color": ""
       }
     },
+    "title_section_xUadX4": {
+      "type": "title-section",
+      "settings": {
+        "title": "Votre titre ici",
+        "text_alignment": "center",
+        "enable_gradient": false,
+        "margin_top": 2,
+        "margin_bottom": 2
+      }
+    },
     "comparaison_product_ebaANg": {
       "type": "comparaison-product",
       "blocks": {
@@ -936,6 +946,7 @@
     "image-link-blocks",
     "image_link_blocks_NajmbH",
     "rich_text_ybPhcw",
+    "title_section_xUadX4",
     "comparaison_product_ebaANg",
     "featured-product",
     "impact-text",
