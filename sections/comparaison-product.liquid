@@ -2,7 +2,7 @@
 {
   "name": "Comparaison de produits",
   "tag": "section",
-  "class": "section product-comparison",
+  "class": "section product-comparison no-section-margin no-outer-margin",
   "settings": [
     {
       "type": "text",
@@ -111,9 +111,7 @@
         { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
         { "type": "text", "id": "highlight_3", "label": "Point fort 3" },
         { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
-        { "type": "text", "id": "highlight_5", "label": "Point fort 5" },
-        { "type": "text", "id": "button_text", "label": "Texte du bouton", "default": "Ajouter au panier" },
-        { "type": "color", "id": "button_color", "label": "Couleur du bouton", "default": "#4a8d9e" }
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
       ]
     },
     {
@@ -128,9 +126,7 @@
         { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
         { "type": "text", "id": "highlight_3", "label": "Point fort 3", "default": "Watch Ultra inclus" },
         { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
-        { "type": "text", "id": "highlight_5", "label": "Point fort 5" },
-        { "type": "text", "id": "button_text", "label": "Texte du bouton", "default": "Ajouter au panier" },
-        { "type": "color", "id": "button_color", "label": "Couleur du bouton", "default": "#4a8d9e" }
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
       ]
     }
   ],
@@ -144,6 +140,7 @@
 {% endschema %}
 
 <style>
+/* Étend dynamiquement le fond coloré à la section Shopify externe */
 .shopify-section[id*="comparaison_product_"] {
   background-color: {{ section.settings.background_color }} !important;
   margin-top: 0 !important;
@@ -217,7 +214,7 @@
 
           <form method="post" action="/cart/add">
             {% if product.variants.size > 1 %}
-              <select name="id">
+              <select name="id" class="variant-select">
                 {% for variant in product.variants %}
                   <option value="{{ variant.id }}">{{ variant.title }} — {{ variant.price | money }}</option>
                 {% endfor %}
@@ -233,13 +230,7 @@
               {% endif %}
             </div>
 
-            <button
-              type="submit"
-              class="add-to-cart"
-              style="background-color: {{ block.settings.button_color }};"
-            >
-              {{ block.settings.button_text }}
-            </button>
+            <button type="submit" class="add-to-cart">Ajouter au panier</button>
           </form>
         </div>
       {% endif %}
@@ -332,6 +323,7 @@
   color: #999;
 }
 .add-to-cart {
+  background-color: #4a8d9e;
   color: white;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -340,6 +332,24 @@
   cursor: pointer;
 }
 .add-to-cart:hover {
-  opacity: 0.9;
+  background-color: #3a7785;
 }
+  .variant-select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Sur fond foncé (dark card) : adapte le style */
+.dark-card .variant-select {
+  background-color: #2b2b2b;
+  color: #fff;
+  border: 1px solid #444;
+}
+
 </style>
