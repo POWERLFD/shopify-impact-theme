@@ -747,6 +747,7 @@
         "16644243327ba53d2a-1": {
           "type": "quote",
           "settings": {
+            "logo": "shopify://shop_images/Logo_01net.webp",
             "logo_width": 100,
             "author": "",
             "content": "Un kit complet qui a tout pour plaire",
