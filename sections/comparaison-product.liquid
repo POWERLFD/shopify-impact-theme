@@ -96,6 +96,18 @@
       "max": 10,
       "step": 0.5,
       "default": 0
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Couleur du bouton Ajouter au panier",
+      "default": "#4a8d9e"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Couleur du texte du bouton",
+      "default": "#ffffff"
     }
   ],
   "blocks": [
@@ -140,7 +152,6 @@
 {% endschema %}
 
 <style>
-/* Étend dynamiquement le fond coloré à la section Shopify externe */
 .shopify-section[id*="comparaison_product_"] {
   background-color: {{ section.settings.background_color }} !important;
   margin-top: 0 !important;
@@ -225,12 +236,27 @@
 
             <div class="price-box">
               <span class="current-price">{{ product.price | money }}</span>
-              {% if product.compare_at_price > product.price %}
-                <span class="old-price">{{ product.compare_at_price | money }}</span>
+              {% if forloop.index == 2 %}
+                {% if product.compare_at_price_max > product.price %}
+                  <span class="old-price">{{ product.compare_at_price_max | money }}</span>
+                {% endif %}
+              {% else %}
+                {% if product.compare_at_price > product.price %}
+                  <span class="old-price">{{ product.compare_at_price | money }}</span>
+                {% endif %}
               {% endif %}
             </div>
 
-            <button type="submit" class="add-to-cart">Ajouter au panier</button>
+            <button
+              type="submit"
+              class="add-to-cart"
+              style="
+                background-color: {{ section.settings.button_bg_color }};
+                color: {{ section.settings.button_text_color }};
+              "
+            >
+              Ajouter au panier
+            </button>
           </form>
         </div>
       {% endif %}
@@ -307,8 +333,18 @@
 }
 .variant-select {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem;
   margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+.dark-card .variant-select {
+  background-color: #2b2b2b;
+  color: #fff;
+  border: 1px solid #444;
 }
 .price-box {
   margin-bottom: 1rem;
@@ -322,34 +358,4 @@
   margin-left: 0.5rem;
   color: #999;
 }
-.add-to-cart {
-  background-color: #4a8d9e;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-.add-to-cart:hover {
-  background-color: #3a7785;
-}
-  .variant-select {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  color: #000;
-}
-
-/* Sur fond foncé (dark card) : adapte le style */
-.dark-card .variant-select {
-  background-color: #2b2b2b;
-  color: #fff;
-  border: 1px solid #444;
-}
-
 </style>
