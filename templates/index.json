@@ -395,6 +395,46 @@
         "heading_gradient": "linear-gradient(46deg, rgba(0, 0, 0, 1) 13%, rgba(153, 153, 153, 1) 49%, rgba(0, 0, 0, 1) 93%)"
       }
     },
+    "comparaison_product_ebaANg": {
+      "type": "comparaison-product",
+      "blocks": {
+        "product_1_7zCzxd": {
+          "type": "product_1",
+          "settings": {
+            "product": "power-kit-6-en-1",
+            "subtitle": "Simple et efficace",
+            "show_badge": false,
+            "badge_text": "NOUVEAU",
+            "highlight_1": "Box 6 en 1",
+            "highlight_2": "Apple Music offert",
+            "highlight_3": "",
+            "highlight_4": "",
+            "highlight_5": ""
+          }
+        },
+        "product_2_VFgA8x": {
+          "type": "product_2",
+          "settings": {
+            "product": "power-kit-7-en-1",
+            "subtitle": "Comme un air de jamais vu",
+            "show_badge": true,
+            "badge_text": "NOUVEAU",
+            "highlight_1": "Box 7 en 1",
+            "highlight_2": "Apple Music offert",
+            "highlight_3": "Watch Ultra inclus",
+            "highlight_4": "",
+            "highlight_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_1_7zCzxd",
+        "product_2_VFgA8x"
+      ],
+      "settings": {
+        "title": "Adoptez votre PulSedBox !"
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -860,6 +900,7 @@
     "rich_text_bMkpzG",
     "image-link-blocks",
     "image_link_blocks_NajmbH",
+    "comparaison_product_ebaANg",
     "featured-product",
     "impact-text",
     "image-with-text-overlay",
