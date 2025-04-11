@@ -734,6 +734,41 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "impact_text_DkE7Wh": {
+      "type": "impact-text",
+      "blocks": {
+        "item_N3pFYB": {
+          "type": "item",
+          "settings": {
+            "title": "4,9/5",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_N3pFYB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -750,6 +785,7 @@
     "impact-text",
     "images_with_text_scrolling_8Y8pPj",
     "press",
-    "faq"
+    "faq",
+    "impact_text_DkE7Wh"
   ]
 }
