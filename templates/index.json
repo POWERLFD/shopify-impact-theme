@@ -411,6 +411,9 @@
       "block_order": [
         "heading_gBpbkT"
       ],
+      "custom_css": [
+        ".rich-text__heading {font-weight: 400 !important; /* ou 300 pour plus fin */}"
+      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
