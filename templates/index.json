@@ -405,13 +405,11 @@
             "subtitle": "Simple et efficace",
             "show_badge": false,
             "badge_text": "NOUVEAU",
-            "highlight_1": "Box POWERKIT 6 en 1",
+            "highlight_1": "POWERKIT 6 en 1",
             "highlight_2": "Apple Music offert",
             "highlight_3": "",
             "highlight_4": "",
-            "highlight_5": "",
-            "button_text": "Ajouter au panier",
-            "button_color": "#4a9188"
+            "highlight_5": ""
           }
         },
         "product_2_VFgA8x": {
@@ -425,9 +423,7 @@
             "highlight_2": "Watch Ultra inclus",
             "highlight_3": "Apple Music offert",
             "highlight_4": "",
-            "highlight_5": "",
-            "button_text": "Ajouter au panier",
-            "button_color": "#4a9188"
+            "highlight_5": ""
           }
         }
       },
