@@ -9,6 +9,41 @@
       "id": "title",
       "label": "Titre principal",
       "default": "Adoptez votre PulSedBox !"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Taille du titre",
+      "default": "text-3xl",
+      "options": [
+        { "value": "text-xl", "label": "Petit" },
+        { "value": "text-2xl", "label": "Moyen" },
+        { "value": "text-3xl", "label": "Grand" },
+        { "value": "text-4xl", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Police du titre",
+      "default": "sans-serif",
+      "options": [
+        { "value": "sans-serif", "label": "Sans Serif" },
+        { "value": "serif", "label": "Serif" },
+        { "value": "monospace", "label": "Monospace" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_gradient",
+      "label": "Activer un dégradé",
+      "default": false
     }
   ],
   "blocks": [
@@ -16,113 +51,30 @@
       "type": "product_1",
       "name": "Produit 1",
       "settings": [
-        {
-          "type": "product",
-          "id": "product",
-          "label": "Produit"
-        },
-        {
-          "type": "text",
-          "id": "subtitle",
-          "label": "Sous-titre",
-          "default": "Simple et efficace"
-        },
-        {
-          "type": "checkbox",
-          "id": "show_badge",
-          "label": "Afficher un badge",
-          "default": false
-        },
-        {
-          "type": "text",
-          "id": "badge_text",
-          "label": "Texte du badge",
-          "default": "NOUVEAU"
-        },
-        {
-          "type": "text",
-          "id": "highlight_1",
-          "label": "Point fort 1",
-          "default": "Box 6 en 1"
-        },
-        {
-          "type": "text",
-          "id": "highlight_2",
-          "label": "Point fort 2",
-          "default": "Apple Music offert"
-        },
-        {
-          "type": "text",
-          "id": "highlight_3",
-          "label": "Point fort 3"
-        },
-        {
-          "type": "text",
-          "id": "highlight_4",
-          "label": "Point fort 4"
-        },
-        {
-          "type": "text",
-          "id": "highlight_5",
-          "label": "Point fort 5"
-        }
+        { "type": "product", "id": "product", "label": "Produit" },
+        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Simple et efficace" },
+        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": false },
+        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
+        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 6 en 1" },
+        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
+        { "type": "text", "id": "highlight_3", "label": "Point fort 3" },
+        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
       ]
     },
     {
       "type": "product_2",
       "name": "Produit 2",
       "settings": [
-        {
-          "type": "product",
-          "id": "product",
-          "label": "Produit"
-        },
-        {
-          "type": "text",
-          "id": "subtitle",
-          "label": "Sous-titre",
-          "default": "Comme un air de jamais vu"
-        },
-        {
-          "type": "checkbox",
-          "id": "show_badge",
-          "label": "Afficher un badge",
-          "default": true
-        },
-        {
-          "type": "text",
-          "id": "badge_text",
-          "label": "Texte du badge",
-          "default": "NOUVEAU"
-        },
-        {
-          "type": "text",
-          "id": "highlight_1",
-          "label": "Point fort 1",
-          "default": "Box 7 en 1"
-        },
-        {
-          "type": "text",
-          "id": "highlight_2",
-          "label": "Point fort 2",
-          "default": "Apple Music offert"
-        },
-        {
-          "type": "text",
-          "id": "highlight_3",
-          "label": "Point fort 3",
-          "default": "Watch Ultra inclus"
-        },
-        {
-          "type": "text",
-          "id": "highlight_4",
-          "label": "Point fort 4"
-        },
-        {
-          "type": "text",
-          "id": "highlight_5",
-          "label": "Point fort 5"
-        }
+        { "type": "product", "id": "product", "label": "Produit" },
+        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Comme un air de jamais vu" },
+        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": true },
+        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
+        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 7 en 1" },
+        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
+        { "type": "text", "id": "highlight_3", "label": "Point fort 3", "default": "Watch Ultra inclus" },
+        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
       ]
     }
   ],
@@ -136,7 +88,24 @@
 {% endschema %}
 
 <section class="product-comparison-wrapper">
-  <h2 class="text-center text-3xl font-bold mb-8">{{ section.settings.title }}</h2>
+  <h2 
+    class="text-center font-bold mb-8 {{ section.settings.title_size }}"
+    style="font-family: {{ section.settings.title_font }}; {% unless section.settings.title_gradient %}color: {{ section.settings.title_color }};{% endunless %}"
+  >
+    {% if section.settings.title_gradient %}
+      <span style="
+        background: linear-gradient(90deg, #4fd1c5, {{ section.settings.title_color }});
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+      ">
+        {{ section.settings.title }}
+      </span>
+    {% else %}
+      {{ section.settings.title }}
+    {% endif %}
+  </h2>
+
   <div class="product-comparison-grid">
     {% for block in section.blocks %}
       {% assign product = all_products[block.settings.product] %}
@@ -149,19 +118,18 @@
           <p class="product-subtitle">{{ block.settings.subtitle }}</p>
 
           {% if product.featured_image %}
-            <img src="{{ product.featured_image | image_url: width: 600 }}" alt="{{ product.title }}" class="product-image" loading="lazy">
+            <img src="{{ product.featured_image | image_url: width: 800 }}" alt="{{ product.title }}" class="product-image" loading="lazy">
           {% endif %}
 
           <ul class="highlights">
-  {% for i in (1..5) %}
-    {% assign key = "highlight_" | append: i %}
-    {% assign point = block.settings[key] %}
-    {% if point != blank %}
-      <li>✔ {{ point }}</li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
+            {% for i in (1..5) %}
+              {% assign key = "highlight_" | append: i %}
+              {% assign point = block.settings[key] %}
+              {% if point != blank %}
+                <li>✔ {{ point }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
 
           <form method="post" action="/cart/add">
             {% if product.variants.size > 1 %}
@@ -197,20 +165,22 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .product-comparison-grid {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 .product-card {
   background: #ffffff;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   text-align: center;
   flex: 1;
+  max-width: 400px;
 }
 .product-card.dark-card {
   background: #1e1e1e;
@@ -218,8 +188,8 @@
 }
 .product-image {
   width: 100%;
-  max-width: 300px;
-  margin: 1rem auto;
+  max-width: 360px;
+  margin: 1rem auto 2rem;
 }
 .product-title {
   font-weight: 700;
