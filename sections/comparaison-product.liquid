@@ -231,14 +231,13 @@
 </section>
 
 <style>
-/* Supprime toutes les marges externes imposées par Shopify entre les sections */
-section.no-outer-margin,
-section.no-outer-margin + section,
-section + section.no-outer-margin {
+/* Supprime la marge externe imposée par Shopify au wrapper parent */
+.shopify-section[id*="comparaison_product_"] {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
+/* Grille responsive */
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
@@ -252,6 +251,8 @@ section + section.no-outer-margin {
     align-items: stretch;
   }
 }
+
+/* Cartes produits */
 .product-card {
   background: #ffffff;
   padding: 1.5rem;
