@@ -224,18 +224,11 @@
             {% endif %}
 
             <div class="price-box">
-  <span class="current-price">{{ product.price | money }}</span>
-  {% if forloop.index == 2 %}
-    {% if product.compare_at_price_max > product.price %}
-      <span class="old-price">{{ product.compare_at_price_max | money }}</span>
-    {% endif %}
-  {% else %}
-    {% if product.compare_at_price > product.price %}
-      <span class="old-price">{{ product.compare_at_price | money }}</span>
-    {% endif %}
-  {% endif %}
-</div>
-
+              <span class="current-price">{{ product.price | money }}</span>
+              {% if product.compare_at_price > product.price %}
+                <span class="old-price">{{ product.compare_at_price | money }}</span>
+              {% endif %}
+            </div>
 
             <button type="submit" class="add-to-cart">Ajouter au panier</button>
           </form>
