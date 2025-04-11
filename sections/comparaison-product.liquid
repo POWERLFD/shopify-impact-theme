@@ -78,6 +78,24 @@
       "max": 10,
       "step": 0.5,
       "default": 4
+    },
+    {
+      "type": "range",
+      "id": "spacing_title_blocks",
+      "label": "Espace entre le titre et les blocs (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "spacing_below_blocks",
+      "label": "Espace entre les blocs et la section suivante (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 0
     }
   ],
   "blocks": [
@@ -134,9 +152,10 @@
   "
 >
   <h2
-    class="h3 text-center mb-8 {{ section.settings.title_weight }}"
+    class="h3 text-center {{ section.settings.title_weight }}"
     style="
       font-size: {{ section.settings.title_font_size }}rem;
+      margin-bottom: {{ section.settings.spacing_title_blocks }}rem;
       {% unless section.settings.title_gradient %}
         color: {{ section.settings.title_color }};
       {% endunless %}
@@ -207,6 +226,8 @@
       {% endif %}
     {% endfor %}
   </div>
+
+  <div style="height: {{ section.settings.spacing_below_blocks }}rem;"></div>
 </section>
 
 <style>
