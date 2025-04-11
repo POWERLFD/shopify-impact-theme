@@ -87,7 +87,7 @@
             "width_mobile": 150,
             "slide_gap": 10,
             "autoplay": true,
-            "display_discount": true,
+            "display_discount": false,
             "display_card": true,
             "popup": true,
             "show_names": false,
