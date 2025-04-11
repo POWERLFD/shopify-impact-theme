@@ -819,8 +819,8 @@
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Je n’ai pas reçu d’e-mail de confirmation après ma commande, que faire ?",
+            "content": "<p>Avant tout, pensez à jeter un œil dans vos spams ou courriers indésirables — l’e-mail s’y cache parfois. Toujours rien ? Pas de souci : envoyez-nous votre nom, prénom, l’adresse e-mail utilisée lors de la commande, votre numéro de téléphone et, si possible, votre numéro de commande. On vérifiera tout ça rapidement et on vous renverra les infos par e-mail ou SMS.</p>"
           }
         }
       },
