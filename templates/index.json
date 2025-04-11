@@ -98,7 +98,7 @@
             "align_heading": "left",
             "align_items": "center",
             "order_by": "date_desc",
-            "buy_now_text": "Add to cart",
+            "buy_now_text": "Ajouter au panier",
             "color_play_button": "#000000",
             "color_play_button_inner": "#ffffff",
             "border_color": "#000000",
