@@ -2,7 +2,7 @@
 {
   "name": "Comparaison de produits",
   "tag": "section",
-  "class": "section product-comparison no-section-margin",
+  "class": "section product-comparison no-section-margin no-outer-margin",
   "settings": [
     {
       "type": "text",
@@ -140,7 +140,7 @@
 {% endschema %}
 
 <section
-  class="product-comparison-wrapper no-section-margin"
+  class="product-comparison-wrapper no-section-margin no-outer-margin"
   style="
     background-color: {{ section.settings.background_color }};
     padding-top: {{ section.settings.padding_top }}rem;
@@ -231,8 +231,10 @@
 </section>
 
 <style>
-/* Supprime toute marge extérieure que Shopify applique automatiquement entre sections */
-.no-section-margin {
+/* Supprime toutes les marges externes imposées par Shopify entre les sections */
+section.no-outer-margin,
+section.no-outer-margin + section,
+section + section.no-outer-margin {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
