@@ -96,24 +96,51 @@
       "max": 10,
       "step": 0.5,
       "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_1",
+      "name": "Produit 1",
+      "settings": [
+        { "type": "product", "id": "product", "label": "Produit" },
+        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Simple et efficace" },
+        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": false },
+        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
+        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 6 en 1" },
+        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
+        { "type": "text", "id": "highlight_3", "label": "Point fort 3" },
+        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
+      ]
     },
     {
-      "type": "color",
-      "id": "button_bg_color",
-      "label": "Couleur du bouton Ajouter au panier",
-      "default": "#4a8d9e"
-    },
+      "type": "product_2",
+      "name": "Produit 2",
+      "settings": [
+        { "type": "product", "id": "product", "label": "Produit" },
+        { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Comme un air de jamais vu" },
+        { "type": "checkbox", "id": "show_badge", "label": "Afficher un badge", "default": true },
+        { "type": "text", "id": "badge_text", "label": "Texte du badge", "default": "NOUVEAU" },
+        { "type": "text", "id": "highlight_1", "label": "Point fort 1", "default": "Box 7 en 1" },
+        { "type": "text", "id": "highlight_2", "label": "Point fort 2", "default": "Apple Music offert" },
+        { "type": "text", "id": "highlight_3", "label": "Point fort 3", "default": "Watch Ultra inclus" },
+        { "type": "text", "id": "highlight_4", "label": "Point fort 4" },
+        { "type": "text", "id": "highlight_5", "label": "Point fort 5" }
+      ]
+    }
+  ],
+  "max_blocks": 2,
+  "presets": [
     {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "Couleur du texte du bouton",
-      "default": "#ffffff"
+      "name": "Comparaison de deux produits"
     }
   ]
 }
 {% endschema %}
 
 <style>
+/* Étend dynamiquement le fond coloré à la section Shopify externe */
 .shopify-section[id*="comparaison_product_"] {
   background-color: {{ section.settings.background_color }} !important;
   margin-top: 0 !important;
@@ -198,27 +225,12 @@
 
             <div class="price-box">
               <span class="current-price">{{ product.price | money }}</span>
-              {% if forloop.index == 2 %}
-                {% if product.compare_at_price_max > product.price %}
-                  <span class="old-price">{{ product.compare_at_price_max | money }}</span>
-                {% endif %}
-              {% else %}
-                {% if product.compare_at_price > product.price %}
-                  <span class="old-price">{{ product.compare_at_price | money }}</span>
-                {% endif %}
+              {% if product.compare_at_price > product.price %}
+                <span class="old-price">{{ product.compare_at_price | money }}</span>
               {% endif %}
             </div>
 
-            <button
-              type="submit"
-              class="add-to-cart"
-              style="
-                background-color: {{ section.settings.button_bg_color }};
-                color: {{ section.settings.button_text_color }};
-              "
-            >
-              Ajouter au panier
-            </button>
+            <button type="submit" class="add-to-cart">Ajouter au panier</button>
           </form>
         </div>
       {% endif %}
@@ -295,18 +307,8 @@
 }
 .variant-select {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  color: #000;
-}
-.dark-card .variant-select {
-  background-color: #2b2b2b;
-  color: #fff;
-  border: 1px solid #444;
 }
 .price-box {
   margin-bottom: 1rem;
@@ -321,14 +323,33 @@
   color: #999;
 }
 .add-to-cart {
+  background-color: #4a8d9e;
+  color: white;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 0.5rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 .add-to-cart:hover {
-  filter: brightness(0.9);
+  background-color: #3a7785;
 }
+  .variant-select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Sur fond foncé (dark card) : adapte le style */
+.dark-card .variant-select {
+  background-color: #2b2b2b;
+  color: #fff;
+  border: 1px solid #444;
+}
+
 </style>
