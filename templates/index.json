@@ -619,6 +619,7 @@
         "item_YwpmUD": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/iPhones.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "",
