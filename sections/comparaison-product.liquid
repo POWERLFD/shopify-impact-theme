@@ -59,7 +59,7 @@
       "type": "color",
       "id": "background_color",
       "label": "Couleur de fond de la section",
-      "default": "#ffffff"
+      "default": "#f2f2f2"
     },
     {
       "type": "range",
@@ -68,7 +68,7 @@
       "min": 0,
       "max": 10,
       "step": 0.5,
-      "default": 4
+      "default": 3
     },
     {
       "type": "range",
@@ -77,7 +77,7 @@
       "min": 0,
       "max": 10,
       "step": 0.5,
-      "default": 4
+      "default": 3
     },
     {
       "type": "range",
@@ -139,14 +139,24 @@
 }
 {% endschema %}
 
+<style>
+/* Étend dynamiquement le fond coloré à la section Shopify externe */
+.shopify-section[id*="comparaison_product_"] {
+  background-color: {{ section.settings.background_color }} !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+</style>
+
 <section
-  class="product-comparison-wrapper no-section-margin no-outer-margin"
+  class="product-comparison-wrapper"
   style="
     background-color: {{ section.settings.background_color }};
     padding-top: {{ section.settings.padding_top }}rem;
     padding-bottom: {{ section.settings.padding_bottom }}rem;
-    width: 100vw;
-    margin-left: calc(-1 * ((100vw - 100%) / 2));
+    width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   "
@@ -231,13 +241,6 @@
 </section>
 
 <style>
-/* Supprime la marge externe imposée par Shopify au wrapper parent */
-.shopify-section[id*="comparaison_product_"] {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-/* Grille responsive */
 .product-comparison-grid {
   display: flex;
   flex-direction: column;
@@ -251,8 +254,6 @@
     align-items: stretch;
   }
 }
-
-/* Cartes produits */
 .product-card {
   background: #ffffff;
   padding: 1.5rem;
