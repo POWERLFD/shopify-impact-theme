@@ -1,6 +1,282 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Comparaison de produits",
+  "tag": "section",
+  "class": "section product-comparison",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre principal",
+      "default": "Adoptez votre PulSedBox !"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_1",
+      "name": "Produit 1",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Produit"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "default": "Simple et efficace"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_badge",
+          "label": "Afficher un badge",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "Texte du badge",
+          "default": "NOUVEAU"
+        },
+        {
+          "type": "text",
+          "id": "highlight_1",
+          "label": "Point fort 1",
+          "default": "Box 6 en 1"
+        },
+        {
+          "type": "text",
+          "id": "highlight_2",
+          "label": "Point fort 2",
+          "default": "Apple Music offert"
+        },
+        {
+          "type": "text",
+          "id": "highlight_3",
+          "label": "Point fort 3"
+        },
+        {
+          "type": "text",
+          "id": "highlight_4",
+          "label": "Point fort 4"
+        },
+        {
+          "type": "text",
+          "id": "highlight_5",
+          "label": "Point fort 5"
+        }
+      ]
+    },
+    {
+      "type": "product_2",
+      "name": "Produit 2",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Produit"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "default": "Comme un air de jamais vu"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_badge",
+          "label": "Afficher un badge",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "Texte du badge",
+          "default": "NOUVEAU"
+        },
+        {
+          "type": "text",
+          "id": "highlight_1",
+          "label": "Point fort 1",
+          "default": "Box 7 en 1"
+        },
+        {
+          "type": "text",
+          "id": "highlight_2",
+          "label": "Point fort 2",
+          "default": "Apple Music offert"
+        },
+        {
+          "type": "text",
+          "id": "highlight_3",
+          "label": "Point fort 3",
+          "default": "Watch Ultra inclus"
+        },
+        {
+          "type": "text",
+          "id": "highlight_4",
+          "label": "Point fort 4"
+        },
+        {
+          "type": "text",
+          "id": "highlight_5",
+          "label": "Point fort 5"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 2,
+  "presets": [
+    {
+      "name": "Comparaison de deux produits"
+    }
+  ]
+}
 {% endschema %}
+
+<section class="product-comparison-wrapper">
+  <h2 class="text-center text-3xl font-bold mb-8">{{ section.settings.title }}</h2>
+  <div class="product-comparison-grid">
+    {% for block in section.blocks %}
+      {% assign product = all_products[block.settings.product] %}
+      {% if product %}
+        <div class="product-card {% if forloop.index == 2 %}dark-card{% endif %}">
+          {% if block.settings.show_badge %}
+            <span class="badge">{{ block.settings.badge_text }}</span>
+          {% endif %}
+          <h3 class="product-title">{{ product.title }}</h3>
+          <p class="product-subtitle">{{ block.settings.subtitle }}</p>
+
+          {% if product.featured_image %}
+            <img src="{{ product.featured_image | image_url: width: 600 }}" alt="{{ product.title }}" class="product-image" loading="lazy">
+          {% endif %}
+
+          <ul class="highlights">
+  {% for i in (1..5) %}
+    {% assign key = "highlight_" | append: i %}
+    {% assign point = block.settings[key] %}
+    {% if point != blank %}
+      <li>✔ {{ point }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+          <form method="post" action="/cart/add">
+            {% if product.variants.size > 1 %}
+              <select name="id" class="variant-select">
+                {% for variant in product.variants %}
+                  <option value="{{ variant.id }}">{{ variant.title }} — {{ variant.price | money }}</option>
+                {% endfor %}
+              </select>
+            {% else %}
+              <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            {% endif %}
+
+            <div class="price-box">
+              <span class="current-price">{{ product.price | money }}</span>
+              {% if product.compare_at_price > product.price %}
+                <span class="old-price">{{ product.compare_at_price | money }}</span>
+              {% endif %}
+            </div>
+
+            <button type="submit" class="add-to-cart">Ajouter au panier</button>
+          </form>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+.product-comparison-wrapper {
+  padding: 4rem 2rem;
+}
+.product-comparison-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .product-comparison-grid {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.product-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  flex: 1;
+}
+.product-card.dark-card {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+.product-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.product-subtitle {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+.badge {
+  background-color: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.highlights {
+  text-align: left;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  list-style: none;
+}
+.highlights li {
+  margin-bottom: 0.5rem;
+}
+.variant-select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.price-box {
+  margin-bottom: 1rem;
+}
+.current-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.old-price {
+  text-decoration: line-through;
+  margin-left: 0.5rem;
+  color: #999;
+}
+.add-to-cart {
+  background-color: #4a8d9e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background-color: #3a7785;
+}
+</style>
