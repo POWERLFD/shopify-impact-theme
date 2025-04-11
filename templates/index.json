@@ -417,11 +417,11 @@
           "settings": {
             "product": "power-kit-7-en-1",
             "subtitle": "Comme un air de jamais vu",
-            "show_badge": true,
-            "badge_text": "NOUVEAU",
+            "show_badge": false,
+            "badge_text": "",
             "highlight_1": "Box 7 en 1",
-            "highlight_2": "Apple Music offert",
-            "highlight_3": "Watch Ultra inclus",
+            "highlight_2": "Watch Ultra inclus",
+            "highlight_3": "Apple Music offert",
             "highlight_4": "",
             "highlight_5": ""
           }
