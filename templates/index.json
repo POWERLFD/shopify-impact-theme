@@ -433,7 +433,7 @@
       ],
       "settings": {
         "title": "Le POWERKIT qu'il vous faut",
-        "title_font_size": 2.5,
+        "title_font_size": 3,
         "title_weight": "font-bold",
         "title_color": "#353535",
         "title_gradient": false,
