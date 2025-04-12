@@ -42,6 +42,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/apple_music.webp",
         "mobile_image": "shopify://shop_images/iPhones_page_produit_POWERKIT_1.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
