@@ -57,7 +57,7 @@
         "item_fCXREd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
+            "image": "shopify://shop_images/Batterie_externe_MagSafe_blanche.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Batterie externe MagSafe",
@@ -89,7 +89,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading",
+            "title": "Chargeur rapide USB-C 20W",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
