@@ -60,6 +60,16 @@
     "images_with_text_scrolling_Nmi74B": {
       "type": "images-with-text-scrolling",
       "blocks": {
+        "item_7AkABk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Watch_connectee_1.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Watch Ultra connectée",
+            "content": "<p>Watch connectée avec applications, suivi  santé, étanchéité IP67 et Bluetooth.</p>"
+          }
+        },
         "item_7gzBYm": {
           "type": "item",
           "settings": {
@@ -122,6 +132,7 @@
         }
       },
       "block_order": [
+        "item_7AkABk",
         "item_7gzBYm",
         "item_fCXREd",
         "item_c4rJQn",
