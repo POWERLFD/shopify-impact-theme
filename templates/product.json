@@ -9,6 +9,77 @@
  */
 {
   "sections": {
+    "rich_text_4zLRWk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_krWKJ7": {
+          "type": "heading",
+          "settings": {
+            "text": "CE QUI EST INCLUS DANS LE POWERKIT",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_G6rcw8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Retrouvez tout ce dont vous avez besoin pour votre iPhone réuni dans notre POWERKIT</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_krWKJ7",
+        "richtext_G6rcw8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_Nmi74B": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_ndUEfh": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_pmrqpb": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ndUEfh",
+        "item_pmrqpb"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -103,21 +174,11 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "revealed_image_on_scroll_kcNEV8": {
-      "type": "revealed-image-on-scroll",
-      "settings": {
-        "image": "shopify://shop_images/Ecouteurs2eGen.webp",
-        "subheading": "",
-        "title": "Reveal text on scroll",
-        "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
-      }
     }
   },
   "order": [
-    "main",
-    "revealed_image_on_scroll_kcNEV8"
+    "rich_text_4zLRWk",
+    "images_with_text_scrolling_Nmi74B",
+    "main"
   ]
 }
