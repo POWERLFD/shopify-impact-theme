@@ -123,7 +123,7 @@
           "type": "text",
           "settings": {
             "title": "À propos de POWERKIT Store",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "content": "<p>Chez <strong>POWERKIT Store</strong>, nous avons à cœur de vous proposer le meilleur de la technologie au quotidien.</p><p>Chaque produit est sélectionné avec soin pour allier performance, fiabilité et design soigné.</p><p>Notre ambition : vous offrir des accessoires innovants et durables, accompagnés d’un service client réactif et attentif.</p>",
             "enable_follow_on_shop": true
           }
         }
