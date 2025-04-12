@@ -54,10 +54,9 @@
             "content": "<p>Profitez d’un son parfait et immersif avec les AirPods Pro de 2e Génération équipés de la réduction de bruit, inclus dans notre POWERKIT exclusif.</p>"
           }
         },
-        "item_pmrqpb": {
+        "item_fCXREd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/batterie_externe_MagSafe_b44278c7-df64-402b-9930-df5b8e2ae28e.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Batterie externe MagSafe",
@@ -105,7 +104,7 @@
       },
       "block_order": [
         "item_7gzBYm",
-        "item_pmrqpb",
+        "item_fCXREd",
         "item_c4rJQn",
         "item_7h7YVB",
         "item_Jnb3Qb",
