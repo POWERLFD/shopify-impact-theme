@@ -97,6 +97,7 @@
         "item_iM7chy": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Cable_USB-C_vers_Lightning_pour_iPhone.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Câble USB-C ou Lightning",
