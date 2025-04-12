@@ -77,10 +77,11 @@
         "item_7h7YVB": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Chargeur_sans_fil_MagSafe_sur_telephone.webp",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "Chargeur MagSafe",
+            "content": "<p>Facilitez la recharge de votre iPhone avec notre chargeur MagSafe.</p>"
           }
         },
         "item_Jnb3Qb": {
