@@ -47,10 +47,11 @@
         "item_ndUEfh": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ecouteurs_2e_Gen.webp",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "AirPods Pro (2e Gen)",
+            "content": "<p>Profitez d’un son parfait et immersif avec les AirPods Pro de 2e Génération équipés de la réduction de bruit, inclus dans notre POWERKIT exclusif.</p>"
           }
         },
         "item_pmrqpb": {
