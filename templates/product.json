@@ -221,6 +221,44 @@
         "input_text_color": ""
       }
     },
+    "media_grid_kDgeek": {
+      "type": "media-grid",
+      "blocks": {
+        "image_xpFWae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/apple_music.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xpFWae"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "impact_text_NPbrJR": {
       "type": "impact-text",
       "blocks": {
@@ -261,6 +299,7 @@
     "rich_text_4zLRWk",
     "images_with_text_scrolling_Nmi74B",
     "main",
-    "impact_text_NPbrJR"
+    "impact_text_NPbrJR",
+    "media_grid_kDgeek"
   ]
 }
