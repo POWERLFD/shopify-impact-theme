@@ -112,6 +112,13 @@
             "show_menu_title": true
           }
         },
+        "links_mQYJUg": {
+          "type": "links",
+          "settings": {
+            "menu": "menu-principal",
+            "show_menu_title": true
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
@@ -124,6 +131,7 @@
       "block_order": [
         "newsletter",
         "links",
+        "links_mQYJUg",
         "text"
       ],
       "settings": {
