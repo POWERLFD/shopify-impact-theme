@@ -60,6 +60,16 @@
     "images_with_text_scrolling_Nmi74B": {
       "type": "images-with-text-scrolling",
       "blocks": {
+        "item_f9hDij": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Watch_connectee_1.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
         "item_7gzBYm": {
           "type": "item",
           "settings": {
@@ -122,6 +132,7 @@
         }
       },
       "block_order": [
+        "item_f9hDij",
         "item_7gzBYm",
         "item_fCXREd",
         "item_c4rJQn",
