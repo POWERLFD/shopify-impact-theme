@@ -17,7 +17,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/apple_music.webp",
-        "mobile_image": "shopify://shop_images/iPhones_page_produit_POWERKIT_blanc.webp",
+        "mobile_image": "shopify://shop_images/POWERKIT_avec_iPhone.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
