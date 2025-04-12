@@ -57,6 +57,7 @@
         "item_fCXREd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Batterie externe MagSafe",
