@@ -67,6 +67,7 @@
         "item_c4rJQn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Coque_MagSafe.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Coque MagSafe",
