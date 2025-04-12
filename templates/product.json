@@ -63,11 +63,51 @@
             "title": "Batterie externe MagSafe",
             "content": "<p>La meilleure batterie externe MagSafe, pratique pour vous accompagner dans votre quotidien.</p>"
           }
+        },
+        "item_c4rJQn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Coque MagSafe",
+            "content": "<p>Protégez votre iPhone avec nos coques transparentes antichocs et équipées du système MagSafe.</p><h6></h6>"
+          }
+        },
+        "item_7h7YVB": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_Jnb3Qb": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_iM7chy": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
         }
       },
       "block_order": [
         "item_ndUEfh",
-        "item_pmrqpb"
+        "item_pmrqpb",
+        "item_c4rJQn",
+        "item_7h7YVB",
+        "item_Jnb3Qb",
+        "item_iM7chy"
       ],
       "settings": {
         "full_width": true,
