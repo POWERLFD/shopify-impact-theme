@@ -220,11 +220,47 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "impact_text_NPbrJR": {
+      "type": "impact-text",
+      "blocks": {
+        "item_rphFXC": {
+          "type": "item",
+          "settings": {
+            "title": "6 mois",
+            "subheading": "d'Apple Music offert pour l'achat d'un POWERKIT*",
+            "content": "<p>*Code promo reçu 10 jours après la réception de votre produit</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_rphFXC"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(250, 35, 59, 1), rgba(250, 35, 59, 1) 48%, rgba(255, 255, 255, 1) 89%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "rich_text_4zLRWk",
     "images_with_text_scrolling_Nmi74B",
-    "main"
+    "main",
+    "impact_text_NPbrJR"
   ]
 }
