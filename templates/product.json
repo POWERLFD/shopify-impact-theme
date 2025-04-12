@@ -79,7 +79,7 @@
           "settings": {
             "image": "shopify://shop_images/Chargeur_MagSafe_sur_iPhone_2bca9867-094c-4291-820c-b3cfad0b9270.webp",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 28,
             "title": "Chargeur MagSafe",
             "content": "<p>Facilitez la recharge de votre iPhone avec notre chargeur MagSafe.</p>"
           }
