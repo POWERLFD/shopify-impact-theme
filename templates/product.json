@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -79,7 +75,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
@@ -109,31 +104,20 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "revealed_image_on_scroll_kcNEV8": {
+      "type": "revealed-image-on-scroll",
       "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "image": "shopify://shop_images/Ecouteurs2eGen.webp",
         "subheading": "",
-        "title": "You may also like",
-        "content": "",
+        "title": "Reveal text on scroll",
         "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "revealed_image_on_scroll_kcNEV8"
   ]
 }
