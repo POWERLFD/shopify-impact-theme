@@ -44,10 +44,10 @@
     "images_with_text_scrolling_Nmi74B": {
       "type": "images-with-text-scrolling",
       "blocks": {
-        "item_ndUEfh": {
+        "item_7gzBYm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Ecouteurs_2e_Gen.webp",
+            "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "AirPods Pro (2e Gen)",
@@ -103,7 +103,7 @@
         }
       },
       "block_order": [
-        "item_ndUEfh",
+        "item_7gzBYm",
         "item_pmrqpb",
         "item_c4rJQn",
         "item_7h7YVB",
