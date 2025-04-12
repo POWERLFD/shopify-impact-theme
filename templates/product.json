@@ -9,6 +9,47 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_WVLAb6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_wtUzbQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_xM7LV7": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mW39Gy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wtUzbQ",
+        "heading_xM7LV7",
+        "richtext_mW39Gy"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_image": "shopify://shop_images/iPhones_page_produit_POWERKIT_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_4zLRWk": {
       "type": "rich-text",
       "blocks": {
@@ -18,7 +59,7 @@
             "text": "CE QUI EST INCLUS DANS LE POWERKIT",
             "heading_tag": "h1",
             "text_color": "",
-            "gradient": ""
+            "gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)"
           }
         },
         "richtext_G6rcw8": {
@@ -296,6 +337,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_WVLAb6",
     "rich_text_4zLRWk",
     "images_with_text_scrolling_Nmi74B",
     "main",
