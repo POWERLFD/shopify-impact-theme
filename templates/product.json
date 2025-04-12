@@ -114,7 +114,7 @@
         "item_iM7chy"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_on_mobile": false,
         "show_counter": true,
         "desktop_image_effect": "reveal",
