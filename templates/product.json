@@ -407,8 +407,8 @@
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
+        "heading_text_color": "#285bff",
+        "heading_gradient": "linear-gradient(180deg, rgba(0, 101, 255, 1), rgba(25, 39, 255, 1) 16%, rgba(0, 0, 0, 1) 99%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
