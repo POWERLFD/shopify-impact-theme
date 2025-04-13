@@ -384,6 +384,60 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "press_DcnHpw": {
+      "type": "press",
+      "blocks": {
+        "quote_Ndn44W": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_LesNumeriques.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Le meilleur kit du marché pour vos accessoires d'iPhone !",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_jYFrH9": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_01net.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Un kit complet qui a tout pour plaire",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_EQmJmK": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Frandroid_logo.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Tout ce dont vous avez besoin est dans ce kit",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_Ndn44W",
+        "quote_jYFrH9",
+        "quote_EQmJmK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
@@ -393,6 +447,7 @@
     "main",
     "impact_text_NPbrJR",
     "media_grid_kDgeek",
-    "impact_text_PiCqVY"
+    "impact_text_PiCqVY",
+    "press_DcnHpw"
   ]
 }
