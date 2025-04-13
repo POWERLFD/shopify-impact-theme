@@ -707,7 +707,7 @@
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
-            "animate_impact_text_duration": 2.5
+            "animate_impact_text_duration": 2
           }
         }
       },
@@ -737,7 +737,7 @@
           "type": "quote",
           "settings": {
             "logo": "shopify://shop_images/Logo_LesNumeriques.webp",
-            "logo_width": 105,
+            "logo_width": 100,
             "author": "",
             "content": "Le meilleur kit du marché pour vos accessoires d'iPhone !",
             "show_rating": true,
