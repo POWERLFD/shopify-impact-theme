@@ -171,6 +171,14 @@
           "type": "payment_terms",
           "settings": {}
         },
+        "image_gHC9W8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Informations_produits_et_marque.png",
+            "alignment": "center",
+            "max_width": 350
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -230,8 +238,8 @@
             "order_by": "date_desc",
             "buy_now_text": "Add to cart",
             "color_play_button": "#000000",
-            "color_play_button_inner": "#FFFFFF",
-            "border_color": "#000",
+            "color_play_button_inner": "#ffffff",
+            "border_color": "#000000",
             "border_size": 0,
             "overflow": false
           }
@@ -243,6 +251,7 @@
         "price",
         "rating",
         "payment_terms",
+        "image_gHC9W8",
         "separator",
         "description",
         "variant_picker",
