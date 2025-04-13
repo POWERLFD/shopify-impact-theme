@@ -174,7 +174,7 @@
         "image_gHC9W8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Service_client_a_votre_ecoute_7j7.webp",
+            "image": "shopify://shop_images/Avantages_POWERKIT_Store.webp",
             "alignment": "center",
             "max_width": 350
           }
@@ -349,6 +349,41 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "impact_text_PiCqVY": {
+      "type": "impact-text",
+      "blocks": {
+        "item_RbYEGB": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_RbYEGB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -357,6 +392,7 @@
     "images_with_text_scrolling_Nmi74B",
     "main",
     "impact_text_NPbrJR",
-    "media_grid_kDgeek"
+    "media_grid_kDgeek",
+    "impact_text_PiCqVY"
   ]
 }
