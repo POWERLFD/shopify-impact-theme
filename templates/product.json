@@ -176,7 +176,7 @@
           "settings": {
             "image": "shopify://shop_images/Informations_produits_et_marque.png",
             "alignment": "center",
-            "max_width": 350
+            "max_width": 400
           }
         },
         "separator": {
