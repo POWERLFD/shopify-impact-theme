@@ -170,14 +170,6 @@
             "allow_long_text": false
           }
         },
-        "image_cPGRiD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
-            "alignment": "start",
-            "max_width": 100
-          }
-        },
         "custom_image_text_YHy7D9": {
           "type": "custom_image_text",
           "settings": {
@@ -279,7 +271,6 @@
         "badges",
         "price",
         "line_item_property_RLr4VD",
-        "image_cPGRiD",
         "custom_image_text_YHy7D9",
         "image_hHyRK6",
         "payment_terms",
