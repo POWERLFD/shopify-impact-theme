@@ -356,13 +356,13 @@
         "item_RbYEGB": {
           "type": "item",
           "settings": {
-            "title": "100%",
+            "title": "4,9/5",
             "subheading": "Showcase a benefit of your product",
             "content": "",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2.5
           }
         }
       },
