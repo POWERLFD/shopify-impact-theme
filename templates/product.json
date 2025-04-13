@@ -178,10 +178,11 @@
             "max_width": 100
           }
         },
-        "rating": {
-          "type": "rating",
+        "image_hHyRK6": {
+          "type": "image",
           "settings": {
-            "show_empty": false
+            "alignment": "start",
+            "max_width": 150
           }
         },
         "payment_terms": {
@@ -268,7 +269,7 @@
         "price",
         "line_item_property_RLr4VD",
         "image_cPGRiD",
-        "rating",
+        "image_hHyRK6",
         "payment_terms",
         "image_gHC9W8",
         "separator",
