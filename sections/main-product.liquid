@@ -140,6 +140,51 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "type": "@app"
     },
     {
+  "type": "custom_image_text",
+  "name": "Image + Texte horizontal",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image à gauche"
+    },
+    {
+      "type": "text",
+      "id": "main_text",
+      "label": "Texte principal (gras)",
+      "default": "+200.000"
+    },
+    {
+      "type": "text",
+      "id": "sub_text",
+      "label": "Sous-texte (normal)",
+      "default": "utilisateurs quotidiens satisfaits"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte (px)",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "text",
+      "id": "image_width",
+      "label": "Largeur de l’image (px ou %)",
+      "default": "100px"
+    }
+  ]
+},
+
+    {
       "type": "vendor",
       "name": "Vendor",
       "limit": 1
