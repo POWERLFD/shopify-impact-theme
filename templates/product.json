@@ -161,6 +161,23 @@
             "show_taxes_notice": false
           }
         },
+        "line_item_property_RLr4VD": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Plus de 30 000 utilisateurs satisfaits !",
+            "type": "text",
+            "required": false,
+            "allow_long_text": false
+          }
+        },
+        "image_cPGRiD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
+            "alignment": "start",
+            "max_width": 100
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -249,6 +266,8 @@
         "title",
         "badges",
         "price",
+        "line_item_property_RLr4VD",
+        "image_cPGRiD",
         "rating",
         "payment_terms",
         "image_gHC9W8",
