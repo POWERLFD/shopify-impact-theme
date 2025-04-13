@@ -175,17 +175,6 @@
             "max_width": 100
           }
         },
-        "custom_image_text_YHy7D9": {
-          "type": "custom_image_text",
-          "settings": {
-            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
-            "main_text": "+ de 30 000",
-            "sub_text": "utilisateurs quotidiens satisfaits",
-            "text_color": "#1a1a1a",
-            "text_size": 13,
-            "image_width": "100px"
-          }
-        },
         "image_hHyRK6": {
           "type": "image",
           "settings": {
@@ -277,7 +266,6 @@
         "price",
         "rating_7HpaX9",
         "image_KWWe7J",
-        "custom_image_text_YHy7D9",
         "image_hHyRK6",
         "payment_terms",
         "image_gHC9W8",
