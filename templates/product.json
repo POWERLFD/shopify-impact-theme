@@ -426,7 +426,7 @@
         "play_GLJQrE"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
