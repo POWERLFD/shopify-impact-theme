@@ -379,6 +379,41 @@
         "background_gradient": ""
       }
     },
+    "impact_text_443qQx": {
+      "type": "impact-text",
+      "blocks": {
+        "item_H9cUwB": {
+          "type": "item",
+          "settings": {
+            "title": "+350€",
+            "subheading": "d'économies par rapport aux prix affichés en magasins grâce à POWERKIT Store.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_H9cUwB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "impact_text_PiCqVY": {
       "type": "impact-text",
       "blocks": {
@@ -502,6 +537,7 @@
     "main",
     "impact_text_NPbrJR",
     "media_grid_kDgeek",
+    "impact_text_443qQx",
     "impact_text_PiCqVY",
     "press_DcnHpw",
     "17445713166fa220bc"
