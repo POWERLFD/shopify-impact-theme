@@ -543,6 +543,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Besoin_d_assistance.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "https://powerkit-store.com/pages/contact",
