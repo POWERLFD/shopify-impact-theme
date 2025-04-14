@@ -193,14 +193,6 @@
             "emptyRatingWidget": false
           }
         },
-        "image_KWWe7J": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
-            "alignment": "start",
-            "max_width": 100
-          }
-        },
         "image_hHyRK6": {
           "type": "image",
           "settings": {
@@ -288,7 +280,6 @@
         "price",
         "rating_7HpaX9",
         "loox_reviews_loox_rating_tHnMJY",
-        "image_KWWe7J",
         "image_hHyRK6",
         "payment_terms",
         "image_gHC9W8",
