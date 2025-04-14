@@ -70,6 +70,16 @@
             "content": "<p>Profitez d’un son parfait et immersif avec les AirPods Pro de 2e Génération équipés de la réduction de bruit, inclus dans notre POWERKIT exclusif.</p>"
           }
         },
+        "item_iBRACN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Watch_connectee_noire_915cd330-5aeb-4884-a65e-5a928ddee282.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Watch Ultra connectée",
+            "content": "<p>Watch Ultra connectée avec applications, suivi de santé, étanchéité IP67 et Bluetooth.</p>"
+          }
+        },
         "item_fCXREd": {
           "type": "item",
           "settings": {
@@ -123,6 +133,7 @@
       },
       "block_order": [
         "item_7gzBYm",
+        "item_iBRACN",
         "item_fCXREd",
         "item_c4rJQn",
         "item_7h7YVB",
