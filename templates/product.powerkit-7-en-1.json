@@ -560,6 +560,58 @@
         "logo_item_border": ""
       }
     },
+    "faq_kjDRUf": {
+      "type": "faq",
+      "blocks": {
+        "item_gCxznk": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_C4Rtzc": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_RY73Vp": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_gCxznk",
+        "item_C4Rtzc",
+        "item_RY73Vp"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Nous répondons à vos questions. En attendant, voici celles qu’on nous pose le plus souvent.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Notre service clientèle est disponible 24 heures sur 24, 7 jours sur 7.",
+        "answer_time": "Le temps de réponse moyen est de 24 heures.",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "17445713166fa220bc": {
       "type": "apps",
       "blocks": {
@@ -599,6 +651,7 @@
     "17446500337f0c7a68",
     "impact_text_PiCqVY",
     "press_DcnHpw",
+    "faq_kjDRUf",
     "17445713166fa220bc"
   ]
 }
