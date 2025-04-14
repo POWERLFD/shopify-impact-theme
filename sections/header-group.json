@@ -27,11 +27,19 @@
             "text": "💸 NOS CLIENTS ONT ÉCONOMISÉ + D'1 MILLION D'EUROS EN ACCESSOIRES 💸",
             "url": ""
           }
+        },
+        "message_g9P7ak": {
+          "type": "message",
+          "settings": {
+            "text": "LIVRAISON GRATUITE !",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
-        "message_8n3pWE"
+        "message_8n3pWE",
+        "message_g9P7ak"
       ],
       "settings": {
         "enable_sticky": false,
