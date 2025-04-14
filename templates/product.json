@@ -34,7 +34,7 @@
             "text": "CE QUI EST INCLUS DANS LE POWERKIT 6 EN 1",
             "heading_tag": "h1",
             "text_color": "",
-            "gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(255, 182, 192, 1) 100%)"
+            "gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(255, 174, 185, 1) 100%)"
           }
         },
         "richtext_G6rcw8": {
@@ -532,30 +532,56 @@
         "logo_item_border": ""
       }
     },
-    "17445713166fa220bc": {
-      "type": "apps",
+    "faq_FwKexd": {
+      "type": "faq",
       "blocks": {
-        "judge_me_reviews_review_widget_JGkRQw": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "item_XzfDxj": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_E9JAnf": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_zRMdFR": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_JGkRQw"
+        "item_XzfDxj",
+        "item_E9JAnf",
+        "item_zRMdFR"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Nous répondons à vos questions. En attendant, voici celles qu’on nous pose le plus souvent.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
@@ -571,6 +597,6 @@
     "1744632949d61a224a",
     "impact_text_PiCqVY",
     "press_DcnHpw",
-    "17445713166fa220bc"
+    "faq_FwKexd"
   ]
 }
