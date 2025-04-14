@@ -161,6 +161,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_hPKQzw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0893/1403/4002/files/trustpilot-stars.png?v=1737509545\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    +200.000 <span style=\"font-weight: normal;\">utilisateurs quotidiens satisfaits</span>\n  </span>\n</div>\n          </div>"
+          }
+        },
         "loox_reviews_loox_rating_a8QrGQ": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -260,6 +266,7 @@
         "title",
         "badges",
         "price",
+        "liquid_hPKQzw",
         "loox_reviews_loox_rating_a8QrGQ",
         "rating_7HpaX9",
         "payment_terms",
