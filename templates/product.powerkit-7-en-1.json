@@ -563,18 +563,25 @@
     "faq_kjDRUf": {
       "type": "faq",
       "blocks": {
+        "item_dg4nhU": {
+          "type": "item",
+          "settings": {
+            "title": "Que contient le POWERKIT ?",
+            "content": "<p>Notre POWERKIT contient une batterie sans fil MagSafe, des écouteurs (2ᵉ génération), une coque transparente compatible MagSafe, un chargeur USB-C 12W, un câble Lightning et un câble de charge à induction MagSafe.</p>"
+          }
+        },
         "item_gCxznk": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment se passe la livraison ?",
+            "content": "<p>Notre équipe traite chaque commande sous 48 à 72 heures. La livraison s’effectue ensuite sous 3 à 5 jours ouvrables, selon votre localisation. Une question ? Écrivez-nous à <a><strong>contact@powerkit-store.com</strong></a>.</p>"
           }
         },
         "item_C4Rtzc": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Quels sont les modes de paiement disponibles chez POWERKIT Store ?",
+            "content": "<p>Nous acceptons les paiements par carte bancaire (Visa, MasterCard, American Express). Toutes les transactions sont protégées grâce au cryptage SSL, pour garantir la sécurité totale de vos données personnelles et bancaires.</p>"
           }
         },
         "item_RY73Vp": {
@@ -586,6 +593,7 @@
         }
       },
       "block_order": [
+        "item_dg4nhU",
         "item_gCxznk",
         "item_C4Rtzc",
         "item_RY73Vp"
