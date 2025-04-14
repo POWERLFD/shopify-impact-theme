@@ -16,7 +16,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/POWERKIT_banniere_6_en_1.webp",
+        "image": "shopify://shop_images/POWERKIT_6_en_1_iPhone_16_2.webp",
         "mobile_image": "shopify://shop_images/POWERKIT_iPhone_6_en_1.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -164,7 +164,7 @@
         "liquid_hPKQzw": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0893/1403/4002/files/trustpilot-stars.png?v=1737509545\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 30 000 <span style=\"font-weight: normal;\">utilisateurs satisfaits !</span>\n  </span>\n</div>\n          </div>"
+            "liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0890/9665/1085/files/etoiles_trustpilot.webp?v=1744651877\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 30 000 <span style=\"font-weight: normal;\">utilisateurs satisfaits !</span>\n  </span>\n</div>\n          </div>"
           }
         },
         "rating_7HpaX9": {
