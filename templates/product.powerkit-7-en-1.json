@@ -1,0 +1,553 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_WVLAb6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/POWERKIT_6_en_1_iPhone_16_2.webp",
+        "mobile_image": "shopify://shop_images/POWERKIT_iPhone_6_en_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_4zLRWk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_krWKJ7": {
+          "type": "heading",
+          "settings": {
+            "text": "CE QUI EST INCLUS DANS LE POWERKIT",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)"
+          }
+        },
+        "richtext_G6rcw8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Retrouvez tout ce dont vous avez besoin pour votre iPhone réuni dans notre POWERKIT</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_krWKJ7",
+        "richtext_G6rcw8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_Nmi74B": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_7gzBYm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ecouteurs_sans_fil_bluetooth.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "AirPods Pro (2e Gen)",
+            "content": "<p>Profitez d’un son parfait et immersif avec les AirPods Pro de 2e Génération équipés de la réduction de bruit, inclus dans notre POWERKIT exclusif.</p>"
+          }
+        },
+        "item_fCXREd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Batterie_externe_MagSafe_blanche.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Batterie externe MagSafe",
+            "content": "<p>La meilleure batterie externe MagSafe, pratique pour vous accompagner dans votre quotidien.</p>"
+          }
+        },
+        "item_c4rJQn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Coque_MagSafe_iPhone_1.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Coque MagSafe",
+            "content": "<p>Protégez votre iPhone avec nos coques transparentes antichocs et équipées du système MagSafe.</p><h6></h6>"
+          }
+        },
+        "item_7h7YVB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Chargeur_MagSafe_sur_iPhone_2bca9867-094c-4291-820c-b3cfad0b9270.webp",
+            "icon": "none",
+            "icon_width": 28,
+            "title": "Chargeur MagSafe",
+            "content": "<p>Facilitez la recharge de votre iPhone avec notre chargeur MagSafe.</p>"
+          }
+        },
+        "item_Jnb3Qb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Chargeur_rapide_USB-C_iPhone.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Chargeur rapide USB-C 20W",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_iM7chy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Cable_USB-C_vers_Lightning_pour_iPhone.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Câble USB-C ou Lightning",
+            "content": "<p>Profitez d'une recharge rapide de votre iPhone avec notre câble de qualité et fiable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_7gzBYm",
+        "item_fCXREd",
+        "item_c4rJQn",
+        "item_7h7YVB",
+        "item_Jnb3Qb",
+        "item_iM7chy"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_7HpaX9": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "image_KWWe7J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
+            "alignment": "start",
+            "max_width": 100
+          }
+        },
+        "image_hHyRK6": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "image_gHC9W8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avantages_POWERKIT_Store.webp",
+            "alignment": "center",
+            "max_width": 350
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "inventory_C7kRq7": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#4a9188",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "vimonial_shoppable_videos_ugc_app_block_carousel_8PCkLM": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_carousel/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "heading": "",
+            "description": "",
+            "campaign_id": "cm9ag34el11030cl2mbg3mi1r",
+            "shadow_size": 10,
+            "width": 320,
+            "width_mobile": 150,
+            "slide_gap": 10,
+            "autoplay": false,
+            "display_discount": false,
+            "display_card": false,
+            "popup": false,
+            "show_names": false,
+            "prev_next_buttons": false,
+            "force_aspect": false,
+            "display_atc": false,
+            "redirect_to_cart": true,
+            "align_heading": "left",
+            "align_items": "center",
+            "order_by": "date_desc",
+            "buy_now_text": "Add to cart",
+            "color_play_button": "#000000",
+            "color_play_button_inner": "#ffffff",
+            "border_color": "#000000",
+            "border_size": 0,
+            "overflow": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "rating_7HpaX9",
+        "image_KWWe7J",
+        "image_hHyRK6",
+        "payment_terms",
+        "image_gHC9W8",
+        "separator",
+        "description",
+        "inventory_C7kRq7",
+        "quantity_selector",
+        "buy_buttons",
+        "vimonial_shoppable_videos_ugc_app_block_carousel_8PCkLM"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "impact_text_443qQx": {
+      "type": "impact-text",
+      "blocks": {
+        "item_H9cUwB": {
+          "type": "item",
+          "settings": {
+            "title": "+350€",
+            "subheading": "d'économies par rapport aux prix affichés en magasins grâce à POWERKIT Store.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_H9cUwB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#285bff",
+        "heading_gradient": "linear-gradient(180deg, rgba(0, 101, 255, 1), rgba(25, 39, 255, 1) 16%, rgba(0, 0, 0, 1) 99%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "impact_text_NPbrJR": {
+      "type": "impact-text",
+      "blocks": {
+        "item_rphFXC": {
+          "type": "item",
+          "settings": {
+            "title": "6 mois",
+            "subheading": "d'Apple Music offert pour l'achat d'un POWERKIT*",
+            "content": "<p>*Code promo reçu 10 jours après la réception de votre produit</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_rphFXC"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(250, 35, 59, 1), rgba(250, 35, 59, 1) 48%, rgba(255, 255, 255, 1) 89%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "media_grid_kDgeek": {
+      "type": "media-grid",
+      "blocks": {
+        "image_xpFWae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/apple_music.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xpFWae"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "video_qTydCz": {
+      "type": "video",
+      "blocks": {
+        "play_GLJQrE": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_GLJQrE"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Contenu box.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "impact_text_PiCqVY": {
+      "type": "impact-text",
+      "blocks": {
+        "item_RbYEGB": {
+          "type": "item",
+          "settings": {
+            "title": "4,9/5",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_RbYEGB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "press_DcnHpw": {
+      "type": "press",
+      "blocks": {
+        "quote_Ndn44W": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_LesNumeriques.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Le meilleur kit du marché pour vos accessoires d'iPhone !",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_jYFrH9": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_01net.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Un kit complet qui a tout pour plaire",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_EQmJmK": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Frandroid_logo.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Tout ce dont vous avez besoin est dans ce kit",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_Ndn44W",
+        "quote_jYFrH9",
+        "quote_EQmJmK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "17445713166fa220bc": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_JGkRQw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_JGkRQw"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_WVLAb6",
+    "rich_text_4zLRWk",
+    "images_with_text_scrolling_Nmi74B",
+    "main",
+    "impact_text_443qQx",
+    "impact_text_NPbrJR",
+    "media_grid_kDgeek",
+    "video_qTydCz",
+    "impact_text_PiCqVY",
+    "press_DcnHpw",
+    "17445713166fa220bc"
+  ]
+}
