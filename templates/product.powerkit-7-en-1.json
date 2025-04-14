@@ -584,11 +584,18 @@
             "content": "<p>Nous acceptons les paiements par carte bancaire (Visa, MasterCard, American Express). Toutes les transactions sont protégées grâce au cryptage SSL, pour garantir la sécurité totale de vos données personnelles et bancaires.</p>"
           }
         },
+        "item_yhKBTG": {
+          "type": "item",
+          "settings": {
+            "title": "Comment faire pour retourner mon produit ?",
+            "content": "<p>Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner le produit dans les 30 jours suivant la réception. Contactez notre service client contact@powerkit-store.com pour les instructions de retour.</p>"
+          }
+        },
         "item_RY73Vp": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Quelle est votre politique de garantie ?",
+            "content": "<p>Nous offrons une garantie de remboursement de 30 jours. Si vous avez des problèmes avec votre produit, contactez notre service client àcontact@pulsed-store.fr pour assistance. Nous nous engageons à vous fournir un produit de qualité et un service irréprochable.</p>"
           }
         }
       },
@@ -596,6 +603,7 @@
         "item_dg4nhU",
         "item_gCxznk",
         "item_C4Rtzc",
+        "item_yhKBTG",
         "item_RY73Vp"
       ],
       "settings": {
