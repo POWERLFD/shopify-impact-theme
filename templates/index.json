@@ -645,58 +645,6 @@
         "heading_gradient": ""
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Pourquoi choisir POWERKIT Store ?",
-            "content": "<p>Chez POWERKIT Store, on mise sur la qualité au meilleur prix. Plutôt que de dépenser pour une simple marque, vous recevez tout ce qu’il vous faut pour votre téléphone dans une box complète, pratique et durable. En rejoignant l’aventure POWERKIT Store, vous accédez aussi à des avantages exclusifs : promos, événements et bien plus, toute l’année. C’est plus qu’un achat, vous entrez dans un nouveau monde et une vraie communauté.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "Que faire si j’ai indiqué une mauvaise adresse de livraison ?",
-            "content": "<p>Pas de panique ! Si vous vous rendez compte que l’adresse est incorrecte, contactez-nous au plus vite. Si la commande n’a pas encore été expédiée, on pourra la corriger sans souci. En revanche, si le colis est déjà en route, il nous faudra attendre qu’il nous revienne avant de pouvoir vous le renvoyer, ce qui peut rallonger un peu les délais.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Je n’ai pas reçu d’e-mail de confirmation après ma commande, que faire ?",
-            "content": "<p>Avant tout, pensez à jeter un œil dans vos spams ou courriers indésirables — l’e-mail s’y cache parfois. Toujours rien ? Pas de souci : envoyez-nous votre nom, prénom, l’adresse e-mail utilisée lors de la commande, votre numéro de téléphone et, si possible, votre numéro de commande. On vérifiera tout ça rapidement et on vous renverra les infos par e-mail ou SMS.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "POWERKIT Store répond à vos questions",
-        "content": "",
-        "team_avatar_width": 130,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "impact_text_DkE7Wh": {
       "type": "impact-text",
       "blocks": {
@@ -785,6 +733,58 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi choisir POWERKIT Store ?",
+            "content": "<p>Chez POWERKIT Store, on mise sur la qualité au meilleur prix. Plutôt que de dépenser pour une simple marque, vous recevez tout ce qu’il vous faut pour votre téléphone dans une box complète, pratique et durable. En rejoignant l’aventure POWERKIT Store, vous accédez aussi à des avantages exclusifs : promos, événements et bien plus, toute l’année. C’est plus qu’un achat, vous entrez dans un nouveau monde et une vraie communauté.</p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "Que faire si j’ai indiqué une mauvaise adresse de livraison ?",
+            "content": "<p>Pas de panique ! Si vous vous rendez compte que l’adresse est incorrecte, contactez-nous au plus vite. Si la commande n’a pas encore été expédiée, on pourra la corriger sans souci. En revanche, si le colis est déjà en route, il nous faudra attendre qu’il nous revienne avant de pouvoir vous le renvoyer, ce qui peut rallonger un peu les délais.</p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Je n’ai pas reçu d’e-mail de confirmation après ma commande, que faire ?",
+            "content": "<p>Avant tout, pensez à jeter un œil dans vos spams ou courriers indésirables — l’e-mail s’y cache parfois. Toujours rien ? Pas de souci : envoyez-nous votre nom, prénom, l’adresse e-mail utilisée lors de la commande, votre numéro de téléphone et, si possible, votre numéro de commande. On vérifiera tout ça rapidement et on vous renverra les infos par e-mail ou SMS.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "POWERKIT Store répond à vos questions",
+        "content": "",
+        "team_avatar_width": 130,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -800,8 +800,8 @@
     "media-grid",
     "impact-text",
     "images_with_text_scrolling_8Y8pPj",
-    "faq",
     "impact_text_DkE7Wh",
-    "press"
+    "press",
+    "faq"
   ]
 }
