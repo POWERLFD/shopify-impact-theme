@@ -290,6 +290,41 @@
         "input_text_color": ""
       }
     },
+    "impact_text_443qQx": {
+      "type": "impact-text",
+      "blocks": {
+        "item_H9cUwB": {
+          "type": "item",
+          "settings": {
+            "title": "+350€",
+            "subheading": "d'économies par rapport aux prix affichés en magasins grâce à POWERKIT Store.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_H9cUwB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#285bff",
+        "heading_gradient": "linear-gradient(180deg, rgba(0, 101, 255, 1), rgba(25, 39, 255, 1) 16%, rgba(0, 0, 0, 1) 99%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "impact_text_NPbrJR": {
       "type": "impact-text",
       "blocks": {
@@ -361,41 +396,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "impact_text_443qQx": {
-      "type": "impact-text",
-      "blocks": {
-        "item_H9cUwB": {
-          "type": "item",
-          "settings": {
-            "title": "+350€",
-            "subheading": "d'économies par rapport aux prix affichés en magasins grâce à POWERKIT Store.",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_H9cUwB"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "#285bff",
-        "heading_gradient": "linear-gradient(180deg, rgba(0, 101, 255, 1), rgba(25, 39, 255, 1) 16%, rgba(0, 0, 0, 1) 99%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "video_qTydCz": {
@@ -542,9 +542,9 @@
     "rich_text_4zLRWk",
     "images_with_text_scrolling_Nmi74B",
     "main",
+    "impact_text_443qQx",
     "impact_text_NPbrJR",
     "media_grid_kDgeek",
-    "impact_text_443qQx",
     "video_qTydCz",
     "impact_text_PiCqVY",
     "press_DcnHpw",
