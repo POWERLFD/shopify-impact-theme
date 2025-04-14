@@ -535,6 +535,13 @@
     "faq_FwKexd": {
       "type": "faq",
       "blocks": {
+        "item_4KwKRy": {
+          "type": "item",
+          "settings": {
+            "title": "Que contient le POWERKIT ?",
+            "content": "<p>Notre POWERKIT contient une batterie sans fil MagSafe, des écouteurs (2ᵉ génération), une coque transparente compatible MagSafe, un chargeur USB-C 12W, un câble Lightning et un câble de charge à induction MagSafe.<br/><br/></p>"
+          }
+        },
         "item_XzfDxj": {
           "type": "item",
           "settings": {
@@ -558,6 +565,7 @@
         }
       },
       "block_order": [
+        "item_4KwKRy",
         "item_XzfDxj",
         "item_E9JAnf",
         "item_zRMdFR"
