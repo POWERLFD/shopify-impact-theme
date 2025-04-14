@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/POWERKIT_banniere_1.webp",
+            "image": "shopify://shop_images/POWERKIT_banniere.jpg",
             "mobile_image": "shopify://shop_images/POWERKIT_iPhone_banniere_1.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
