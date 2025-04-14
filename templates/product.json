@@ -542,6 +542,13 @@
             "content": "<p>Notre POWERKIT contient une batterie sans fil MagSafe, des écouteurs (2ᵉ génération), une coque transparente compatible MagSafe, un chargeur USB-C 12W, un câble Lightning et un câble de charge à induction MagSafe.<br/><br/></p>"
           }
         },
+        "item_GyW6fi": {
+          "type": "item",
+          "settings": {
+            "title": "Comment se passe la livraison ?",
+            "content": "<p>Notre équipe traite chaque commande sous 48 à 72 heures. La livraison s’effectue ensuite sous 3 à 5 jours ouvrables, selon votre localisation. Une question ? Écrivez-nous à <a><strong>contact@powerkit-store.com</strong></a>.</p>"
+          }
+        },
         "item_XzfDxj": {
           "type": "item",
           "settings": {
@@ -566,6 +573,7 @@
       },
       "block_order": [
         "item_4KwKRy",
+        "item_GyW6fi",
         "item_XzfDxj",
         "item_E9JAnf",
         "item_zRMdFR"
