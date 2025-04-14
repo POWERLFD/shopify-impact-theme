@@ -161,25 +161,25 @@
             "show_taxes_notice": false
           }
         },
+        "loox_reviews_loox_rating_a8QrGQ": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
         "rating_7HpaX9": {
           "type": "rating",
           "settings": {
             "show_empty": false
-          }
-        },
-        "image_KWWe7J": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Avis_etoiles_Trustpilot.webp",
-            "alignment": "start",
-            "max_width": 100
-          }
-        },
-        "image_hHyRK6": {
-          "type": "image",
-          "settings": {
-            "alignment": "start",
-            "max_width": 150
           }
         },
         "payment_terms": {
@@ -260,9 +260,8 @@
         "title",
         "badges",
         "price",
+        "loox_reviews_loox_rating_a8QrGQ",
         "rating_7HpaX9",
-        "image_KWWe7J",
-        "image_hHyRK6",
         "payment_terms",
         "image_gHC9W8",
         "separator",
@@ -421,6 +420,38 @@
         "overlay_opacity": 30
       }
     },
+    "1744632949d61a224a": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_Gdyxdm": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_Gdyxdm"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "impact_text_PiCqVY": {
       "type": "impact-text",
       "blocks": {
@@ -531,38 +562,6 @@
         "text_color": "",
         "enable_review_integration": true,
         "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "1744632949d61a224a": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_Gdyxdm": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_Gdyxdm"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
