@@ -39,9 +39,67 @@
         "show_shipping_estimator": false,
         "show_payment_icons": true
       }
+    },
+    "rich_text_WGk3CM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Pk69Ha": {
+          "type": "heading",
+          "settings": {
+            "text": "La satisfaction de nos clients est notre priorité :",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pk69Ha"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "press_bzHKf4": {
+      "type": "press",
+      "blocks": {
+        "quote_V666HE": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_V666HE"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_WGk3CM",
+    "press_bzHKf4"
   ]
 }
