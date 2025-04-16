@@ -53,21 +53,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-    <style>
-  .shopify-payment-button {
-    display: block;
-    width: 100%;
-    margin-top: 1rem;
-  }
-
-  .shopify-payment-button__button {
-    width: 100% !important;
-    padding: 16px 0 !important;
-    font-size: 16px !important;
-    border-radius: 8px;
-  }
-</style>
-
   </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
