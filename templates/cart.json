@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_fnEGfg": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0890/9665/1085/files/etoiles_trustpilot.webp?v=1744651877\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 30 000 <span style=\"font-weight: normal;\">utilisateurs satisfaits !</span>\n  </span>\n</div>\n          </div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -51,6 +38,19 @@
       "settings": {
         "show_shipping_estimator": false,
         "show_payment_icons": true
+      }
+    },
+    "custom_liquid_fnEGfg": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center; font-family: 'DIN Next', Arial, sans-serif; font-size: 13px;\" bis_skin_checked=\"1\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0890/9665/1085/files/etoiles_trustpilot.webp?v=1744651877\" alt=\"Trustpilot Stars\" style=\"width: 100px; height: auto; margin-right: 10px;\">\n  <span style=\"color: #1a1a1a; font-weight: bold;\">\n    + de 30 000 <span style=\"font-weight: normal;\">utilisateurs satisfaits !</span>\n  </span>\n</div>\n          </div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_WGk3CM": {
@@ -112,8 +112,8 @@
     }
   },
   "order": [
-    "custom_liquid_fnEGfg",
     "main",
+    "custom_liquid_fnEGfg",
     "rich_text_WGk3CM",
     "press_bzHKf4"
   ]
