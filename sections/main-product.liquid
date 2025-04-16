@@ -60,6 +60,22 @@
     <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button class="sm:hidden">
       {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
     </buy-buttons>
+    <style>
+  .shopify-payment-button {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .shopify-payment-button__button {
+    width: 100% !important;
+    padding: 16px 0 !important;
+    font-size: 16px !important;
+    border-radius: 8px;
+    text-align: center;
+  }
+</style>
+
 
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
